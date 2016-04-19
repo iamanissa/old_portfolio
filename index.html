@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Anissa</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <script src="script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Anissa</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+  <script src="app.js"></script>
 
-    </head>
-  <body>
-<div class="aboutme">
+</head>
+<body data-ng-app="portfolio">
+  <div class="aboutme">
     <!-- about me -->
     <h1>Hi, I'm Anissa</h1>
     <!-- Contact information. -->
@@ -20,28 +21,29 @@
       <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
     </ul>
 
-<!-- Main navigation -->
-<nav>
-  <a href="#">Projects</a> |
-  <a href="#">About Me</a> |
-  <a href="#">Resume</a> |
-</nav>
+    <!-- Main navigation -->
+    <nav ng-init="tab = 2">
+      <a href ng-click="tab = 1">Projects</a> |
+      <a href ng-click="tab = 2">About Me</a> |
+      <a href ng-click="tab = 3">Resume</a> |
+    </nav>
 
     <!-- A brand statement. -->
-    <h2>About Me</h2>
-    <p>I am Web Developer who initiates effective communication between
-      teammates and clients and exudes enthusiasm for object oriented
-      programming. I pride myself as being a knowledge marauder who creates
-      web solutions that inspire, educate, and empower people to reach their
-      defining moments.</p>
-</div>
+    <div ng-show="tab === 2">
+      <h2>About Me</h2>
+      <p>I am Web Developer who initiates effective communication between
+        teammates and clients and exudes enthusiasm for object oriented
+        programming. I pride myself as being a knowledge marauder who creates
+        web solutions that inspire, educate, and empower people to reach their
+        defining moments.</p>
+    </div>
 
 
 
     <!-- A resume. -->
-    <div>
+    <div ng-show="tab === 3">
       <h2>E X P E R I E N C E</h2>
-      <div>
+      <div class="jobs">
         <h3>Web Developer</h3>
         <h5>General Assembly</h5>
         <h5>Feb 2016 - Current</h5>
@@ -54,7 +56,7 @@
           Memory: a front end memory game (JavaScript, HTML, and CSS).
         </p>
       </div>
-      <div>
+      <div class="jobs">
         <h3>Help Desk Contractor</h3>
         <h5>Environmental Protection Agency</h5>
         <h5>May 2015 - Jan 2016</h5>
@@ -63,7 +65,7 @@
           resolving software and hardware issues.
         </p>
       </div>
-      <div>
+      <div class="jobs">
         <h3>Teller</h3>
         <h5>Bank of America</h5>
         <h5>Oct 2014 - Jan 2015</h5>
@@ -72,7 +74,7 @@
           engagement rate within 2 months of being in the company.
         </p>
       </div>
-      <div>
+      <div class="jobs">
         <h3>Sales Associate</h3>
         <h5>Nordstrom Rack</h5>
         <h5>Apr 2013 - Oct 2014</h5>
@@ -118,11 +120,11 @@
 
 
     <!-- A reference to at least one project. -->
-    <div>
+    <div ng-show="tab===1">
       <h2>P R O J E C T S</h2>
       <p>Past projects will go here</p>
     </div>
 
 
   </body>
-</html>
+  </html>
