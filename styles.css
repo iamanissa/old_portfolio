@@ -1,3 +1,22 @@
-
+.welcome {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc; }
+  .welcome .social {
+    padding: 0px; }
+    .welcome .social li {
+      list-style: none;
+      display: inline;
+      color: #808688; }
+    .welcome .social a {
+      font-size: 28px; }
+      .welcome .social a:visited {
+        color: #808688; }
+  .welcome nav .btn-primary {
+    background-color: #00b7be !important;
+    border-color: #fff !important; }
+    .welcome nav .btn-primary:focus {
+      background-color: rgba(0, 183, 190, 0.81) !important; }
 
 /*# sourceMappingURL=styles.css.map */

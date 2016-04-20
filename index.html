@@ -3,57 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <title>Anissa</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="aboutme.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="resume.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="app.js"></script>
 
 </head>
 <body>
-  <div class="welcome">
-    <!-- about me -->
-    <h1>Hi, I'm Anissa</h1>
-    <!-- Contact information. -->
-    <ul class="social">
-      <li><a href="https://github.com/SuperJones"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/anissadjones"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-      <li><a href="https://twitter.com/i_am_anissa"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-      <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-    </ul>
+  <div class="container">
+    <div class="welcome">
+      <!-- about me -->
+      <h1>Hi, I'm Anissa</h1>
+      <!-- Contact information. -->
+      <ul class="social">
+        <li><a href="https://github.com/SuperJones"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/anissadjones"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/i_am_anissa"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
 
-    <!-- Main navigation -->
-    <nav>
-      <button id="projects">Projects</button> |
-      <button id="aboutme">About Me</button> |
-      <button id="resume">Resume</button> |
-    </nav>
-  </div>
-
-
-  <!-- ABOUT ME-->
-  <div class="aboutmeView">
-    <h2>About Me</h2>
-    <p>I am Web Developer who initiates effective communication between
-      teammates and clients and exudes enthusiasm for object oriented
-      programming. I pride myself as being a knowledge marauder who creates
-      web solutions that inspire, educate, and empower people to reach their
-      defining moments.</p>
-  </div>
-
-
-
-  <!-- PROJECTS-->
-  <div class="projectView">
-    <div>
-      <h2>P R O J E C T S</h2>
-      <p>Past projects will go here</p>
+      <!-- Main navigation -->
+      <nav>
+        <button id="projects" class="btn btn-primary" >Projects</button>
+        <button id="aboutme" class="btn btn-primary" >About Me</button>
+        <button id="resume" class="btn btn-primary" >Resume</button>
+      </nav>
     </div>
-  </div>
 
-  <!-- RESUME -->
-  <div class="resumeView">
-    <div class="container">
+
+    <!-- ABOUT ME-->
+    <div class="aboutmeView">
+      <div class="circle"></div>
+      <div>
+      <h2>About Me</h2>
+        <div class="blockquote">I am Web Developer who initiates effective communication between
+          teammates and clients and exudes enthusiasm for object oriented
+          programming. I pride myself as being a knowledge marauder who creates
+          web solutions that inspire, educate, and empower people to reach their
+          defining moments.</div>
+      </div>
+    </div>
+
+
+
+    <!-- PROJECTS-->
+    <div class="projectView">
+
+        <h2>P R O J E C T S</h2>
+        <!-- Viva la vegan -->
+        <div class="project">
+          <h3>Viva-la-Vegan</h3>
+          <p>Use this app to find the vegan options at Fast Food chains</p>
+          <img src="./photos/veganproject.png" alt="Viva-la-Vegan Project">
+        </div>
+        <!-- Memory Game -->
+        <div class="project">
+          <h3>Color Memory</h3>
+          <p>Find the color pairs to win the game of memory.</p>
+          <img src="./photos/memoryplay.png" alt="Memory Game with colors">
+        </div>
+        <!-- Steps Battle -->
+        <div class="project">
+          <h3>Steps Battle</h3>
+          <p>Use your steps tracker to gain points for avatar upgrades. Battle other players and may the fitness player win.</p>
+          <img src="./photos/stepsbattle.png" alt="Track steps for fun with stepsbattle">
+        </div>
+
+    </div>
+
+
+    <!-- TODO: add resume pdf -->
+    <!-- RESUME -->
+    <div class="resumeView">
       <ul class="timeline">
         <li>
           <div class="timeline-badge mainbadge"><i class="fa fa-briefcase mainicon" aria-hidden="true"></i></div>

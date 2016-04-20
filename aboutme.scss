@@ -1,0 +1,19 @@
+.aboutmeView{
+  text-align: center;
+
+  .blockquote {
+    margin: 1.5em auto;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    max-width: 500px;
+  }
+  .blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+}

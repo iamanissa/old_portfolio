@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.aboutmeView {
+  text-align: center; }
+  .aboutmeView .blockquote {
+    margin: 1.5em auto;
+    padding: 0.5em 10px;
+    quotes: "“" "”" "‘" "’";
+    max-width: 500px; }
+  .aboutmeView .blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
+
+/*# sourceMappingURL=aboutme.css.map */

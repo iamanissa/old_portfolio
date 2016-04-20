@@ -1,0 +1,32 @@
+$colorAccent: #00b7be;
+$colorIcon: #808688;
+
+.welcome{
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  .social{
+      padding: 0px;
+    li{
+      list-style: none;
+      display: inline;
+      color: $colorIcon;
+    }
+    a{
+      font-size: 28px;
+      &:visited{
+        color: $colorIcon;
+      }
+    }
+  }
+  nav{
+    .btn-primary{
+      background-color: $colorAccent !important;
+      border-color: #fff !important;
+     &:focus{
+        background-color: rgba(#00b7be, 0.81) !important;
+      }
+    }
+  }
+}

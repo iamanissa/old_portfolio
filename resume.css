@@ -1,4 +1,6 @@
-
+.resumeView {
+  width: 85%;
+}
 
 .timeline {
   list-style: none;
@@ -29,7 +31,7 @@
 }
 
 .timeline > li > .timeline-panel {
-  width: 78%;
+  width: 76%;
   float: right;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
@@ -81,7 +83,7 @@
 
 .mainicon{
   margin-top: 20px;
-  color: #bcc2c4;
+  color: #808688;
 }
 
 .timeline > li > h2 {
