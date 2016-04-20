@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
   <script src="app.js"></script>
 
 </head>
@@ -23,26 +24,28 @@
 
     <!-- Main navigation -->
     <nav ng-init="tab = 2">
-      <a href ng-click="tab = 1">Projects</a> |
+      <a href ng-click="tab = 1"	>Projects</a> |
       <a href ng-click="tab = 2">About Me</a> |
-      <a href ng-click="tab = 3">Resume</a> |
+      <a data-ui-sref="resume">Resume</a> |
     </nav>
 
+    <div data-ui-view></div>
+
     <!-- A brand statement. -->
-    <div ng-show="tab === 2">
+    <!-- <div ng-show="tab === 2">
       <h2>About Me</h2>
       <p>I am Web Developer who initiates effective communication between
         teammates and clients and exudes enthusiasm for object oriented
         programming. I pride myself as being a knowledge marauder who creates
         web solutions that inspire, educate, and empower people to reach their
         defining moments.</p>
-    </div>
+    </div> -->
 
 
 
     <!-- A resume. -->
-    <div ng-show="tab === 3">
-      <h2>E X P E R I E N C E</h2>
+    <!-- <div ng-show="tab === 3">
+      <div data-ui-view></div>
       <div class="jobs">
         <h3>Web Developer</h3>
         <h5>General Assembly</h5>
@@ -116,14 +119,14 @@
           PerScholas IT Ready Training
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- A reference to at least one project. -->
-    <div ng-show="tab===1">
+    <!-- <div ng-show="tab===1">
       <h2>P R O J E C T S</h2>
       <p>Past projects will go here</p>
-    </div>
+    </div> -->
 
 
   </body>
