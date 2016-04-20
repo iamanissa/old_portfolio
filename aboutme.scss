@@ -7,7 +7,7 @@ $colorIcon: #808688;
   .blockquote {
     display: table-cell;
     vertical-align: middle;
-    margin: 1.5em auto;
+    margin: 12em auto;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
     max-width: 500px;
@@ -20,6 +20,14 @@ $colorIcon: #808688;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
+  }
+  .blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 6em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.6em;
   }
   .circle {
   position: absolute;
