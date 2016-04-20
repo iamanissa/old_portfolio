@@ -1,27 +1,21 @@
-"use strict";
+$(document).ready(function(){
+  $(".resumeView").hide();
+  $(".projectView").hide();
+  $(".aboutmeView").show();
 
-(function(){
-  angular
-  .module("portfolio", [
-    "ui.router"
-  ])
-  .config([
-    "$stateProvider", RouterFunction
-  ]);
-
-  function RouterFunction($stateProvider){
-    $stateProvider
-    .state("resume", {
-      url:"/resume",
-      templateUrl: "./resume/resume.html"
-    })
-    .state("projects", {
-      url: "/projects",
-      templateUrl: "./projects/projects.html"
-    })
-    .state("aboutme", {
-      url: "/aboutme",
-      templateUrl: "./aboutme/aboutme.html"
-    });
-  }
-})();
+  $("#projects").on("click", function(){
+    $(".aboutmeView").hide();
+    $(".resumeView").hide();
+    $(".projectView").show();
+  });
+  $("#aboutme").on("click", function(){
+    $(".resumeView").hide();
+    $(".projectView").hide();
+    $(".aboutmeView").show();
+  });
+  $("#resume").on("click", function(){
+    $(".aboutmeView").hide();
+    $(".projectView").hide();
+    $(".resumeView").show();
+  });
+});

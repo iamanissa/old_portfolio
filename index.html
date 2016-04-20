@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <title>Anissa</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="resume.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="app.js"></script>
 
 </head>
-<body data-ng-app="portfolio">
-  <div class="aboutme">
+<body>
+  <div class="welcome">
     <!-- about me -->
     <h1>Hi, I'm Anissa</h1>
     <!-- Contact information. -->
@@ -23,111 +23,154 @@
     </ul>
 
     <!-- Main navigation -->
-    <nav ng-init="tab = 2">
-      <a href ng-click="tab = 1"	>Projects</a> |
-      <a href ng-click="tab = 2">About Me</a> |
-      <a data-ui-sref="resume">Resume</a> |
+    <nav>
+      <button id="projects">Projects</button> |
+      <button id="aboutme">About Me</button> |
+      <button id="resume">Resume</button> |
     </nav>
-
-    <div data-ui-view></div>
-
-    <!-- A brand statement. -->
-    <!-- <div ng-show="tab === 2">
-      <h2>About Me</h2>
-      <p>I am Web Developer who initiates effective communication between
-        teammates and clients and exudes enthusiasm for object oriented
-        programming. I pride myself as being a knowledge marauder who creates
-        web solutions that inspire, educate, and empower people to reach their
-        defining moments.</p>
-    </div> -->
+  </div>
 
 
-
-    <!-- A resume. -->
-    <!-- <div ng-show="tab === 3">
-      <div data-ui-view></div>
-      <div class="jobs">
-        <h3>Web Developer</h3>
-        <h5>General Assembly</h5>
-        <h5>Feb 2016 - Current</h5>
-        <p>
-          Viva la Vegan: an application that provides users with the vegan options at
-          restaurant chains (AngularJS, Ruby of Rails, PostgreSQL).
-          Steps Battle: an application that turns step tracker data into game points, so
-          that a user can upgrade their game equipment and duel others players (Ruby,
-          Ruby on Rails, PostgreSQL, Bootstrap, SASS, and HTML).
-          Memory: a front end memory game (JavaScript, HTML, and CSS).
-        </p>
-      </div>
-      <div class="jobs">
-        <h3>Help Desk Contractor</h3>
-        <h5>Environmental Protection Agency</h5>
-        <h5>May 2015 - Jan 2016</h5>
-        <p>
-          Supported all 13 offices of the EPA by troubleshooting, diagnosing, and
-          resolving software and hardware issues.
-        </p>
-      </div>
-      <div class="jobs">
-        <h3>Teller</h3>
-        <h5>Bank of America</h5>
-        <h5>Oct 2014 - Jan 2015</h5>
-        <p>
-          Boosted sales for region and was in the top 5 percentile for customer
-          engagement rate within 2 months of being in the company.
-        </p>
-      </div>
-      <div class="jobs">
-        <h3>Sales Associate</h3>
-        <h5>Nordstrom Rack</h5>
-        <h5>Apr 2013 - Oct 2014</h5>
-        <p>
-          Mastered re-ticketing program for maintaining inventory and trained over 20
-          new hires on system.
-          Was promoted to Interim Assistant Manager in the Women's Department after
-          generating sales of over $10,000.
-        </p>
-      </div>
+  <!-- ABOUT ME-->
+  <div class="aboutmeView">
+    <h2>About Me</h2>
+    <p>I am Web Developer who initiates effective communication between
+      teammates and clients and exudes enthusiasm for object oriented
+      programming. I pride myself as being a knowledge marauder who creates
+      web solutions that inspire, educate, and empower people to reach their
+      defining moments.</p>
+  </div>
 
 
-      <div>
-        <h2>S K I L L S</h2>
-        <p>
-          HTML, CSS/SASS, Bootstrap
-          JavaScript, jQuery, AngularJS, PHP
-          Ruby, Ruby on Rails, Node.js, ExpressJS
-          Git (in conjunction with Github)
-          PostgreSQL, SQL, MongoDB
-          ActiveRecord (ORM)
-          APIs, AJAX, JSON
-        </p>
-      </div>
 
-      <div>
-        <div>
-          <h2>E D U C A T I O N</h2>
-          2007 - 2010
-          Bachelor of Arts, Major in Theatre
-          University of Alabama at Birmingham
-          Sum Cum Laude
-        </div>
-        <div>
-          <h2>C E R T I F I C A T I O N S</h2>
-          Apr 2016 Web Developement Immersive Certificate
-          General Assembly
-          Apr 2015 CompTIA A+ Certification
-          PerScholas IT Ready Training
-        </div>
-      </div>
-    </div> -->
-
-
-    <!-- A reference to at least one project. -->
-    <!-- <div ng-show="tab===1">
+  <!-- PROJECTS-->
+  <div class="projectView">
+    <div>
       <h2>P R O J E C T S</h2>
       <p>Past projects will go here</p>
-    </div> -->
+    </div>
+  </div>
 
-
-  </body>
-  </html>
+  <!-- RESUME -->
+  <div class="resumeView">
+    <div class="container">
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-briefcase mainicon" aria-hidden="true"></i></div>
+          <h2>Experience</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Web Developer</h4>
+              <h5>General Assemb.ly</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Feb 2016 - May 2016</span>
+              <p>Viva la Vegan: an application that provides users with the vegan options at
+                restaurant chains (AngularJS, Ruby of Rails, PostgreSQL).
+              </p>
+              <p>
+                Steps Battle: an application that turns step tracker data into game points, so that a user can upgrade their game equipment and duel others players (Ruby, Ruby on Rails, PostgreSQL, Bootstrap, SASS, and HTML).
+              </p>
+              <p>
+                Memory: a front end memory game (JavaScript, HTML, and CSS).
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Help Desk Technician</h4>
+              <h5>Environmental Protection Agency</h5>
+            </div>
+            <div class="timeline-body">
+              <span>May 2015 - Jan 2016</span>
+              <p>Supported all 13 offices of the EPA by troubleshooting, diagnosing, and
+                resolving software and hardware issues.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2015</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Teller</h4>
+              <h5>Bank of America</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Oct 2014 - Jan 2015</span>
+              <p>  Boosted sales for region and was in the top 5 percentile for customer
+                engagement rate within 2 months of being in the company.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2014</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sales Associate</h4>
+              <h5>Nordstrom Rack</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Apr 2013 - Oct 2014</span>
+              <p>Mastered re-ticketing program for maintaining inventory and trained over 20 new hires on system.</p>
+              <p>Was promoted to Interim Assistant Manager in the Women's Department after generating sales of over $10,000.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-graduation-cap mainicon" aria-hidden="true"></i></i></div>
+          <h2>Education</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2010</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Bachelor of Arts</h4>
+              <h5>University of Alabama at Birmingham</h5>
+            </div>
+            <div class="timeline-body">
+              <span>2007 - 2010</span>
+              <p>Majored in Theatre </p>
+              <p>Sum Cum Laude.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-star mainicon" aria-hidden="true"></i></div>
+          <h2>Certifications</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Web Developement Immersive Certificate</h4>
+              <h5>General Assemb.ly</h5>
+            </div>
+            <div class="timeline-body">
+              <span>April 2016</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2015</span></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">CompTIA A+ Certification</h4>
+              <h5>PerScholas IT Ready Training</h5>
+            </div>
+            <div class="timeline-body">
+              <span>April 2015</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
