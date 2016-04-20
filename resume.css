@@ -79,7 +79,7 @@
 
 .mainicon{
   margin-top: 20px;
-  color: #dde4e6;
+  color: #bcc2c4;
 }
 
 .timeline > li > h2 {
@@ -105,8 +105,14 @@
 
 
 .timeline-badge.info {
-  background-color: #5bc0de !important;
-  padding-top: 5px;
+  background-color: #00b7be !important;
+  padding-top: 4px;
+  border: 3px solid #fff;
+
+}
+
+.date{
+  font-size: 16px;
 }
 
 .timeline-badge.mainbadge {
@@ -123,4 +129,12 @@
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.timeline-body > span {
+  font-style: italic;;
+}
+
+.timeline-heading > h5 {
+  color: #00a0a6;
 }
