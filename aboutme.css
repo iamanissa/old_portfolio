@@ -9,6 +9,8 @@
     quotes: "“" "”" "‘" "’";
     max-width: 500px;
     position: relative; }
+    .aboutmeView .blockquote span {
+      font-weight: bold; }
   .aboutmeView .blockquote:before {
     color: #ccc;
     content: open-quote;

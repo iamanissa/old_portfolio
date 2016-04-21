@@ -12,6 +12,9 @@ $colorIcon: #808688;
     quotes: "\201C""\201D""\2018""\2019";
     max-width: 500px;
     position: relative;
+    span{
+      font-weight: bold;
+    }
   }
   .blockquote:before {
     color: #ccc;
