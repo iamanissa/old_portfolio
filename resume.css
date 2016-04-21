@@ -89,6 +89,7 @@
 .timeline > li > h2 {
   float: right;
 	width: 80%;
+  font-family: 'PT Serif Caption', serif;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -107,7 +108,13 @@
   right: auto;
 }
 
-
+.pdf  {
+  text-decoration: none;
+  font-family: 'PT Serif Caption', serif;
+  color: #05979d;
+  float: right;
+  font-size: 16px;
+}
 .timeline-badge.info {
   background-color: #00b7be !important;
   padding-top: 4px;
