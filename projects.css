@@ -2,7 +2,7 @@
   text-align: center;
   margin-bottom: 50px; }
   .projectView img {
-    border: 2px solid #00b7be;
+    border: 2px solid #808688;
     width: 550px;
     height: 300px; }
   .projectView .box {
@@ -31,6 +31,23 @@
     flex-flow: row wrap;
     margin-bottom: 20px; }
   .projectView .projectinfo {
-    width: 550px; }
+    width: 550px;
+    margin: 0px 20px; }
+    .projectView .projectinfo h3 {
+      font-family: 'PT Serif Caption', serif; }
+    .projectView .projectinfo p {
+      padding: 0 15px; }
+  .projectView .techused ul {
+    list-style: none;
+    padding: 0px; }
+    .projectView .techused ul li {
+      display: inline-block;
+      background-color: #00b7be;
+      color: #fff;
+      padding: 0.5em;
+      margin: 0 0.35em 0.6em 0;
+      font-size: 0.8em;
+      border-radius: 0.3em;
+      float: left; }
 
 /*# sourceMappingURL=projects.css.map */
