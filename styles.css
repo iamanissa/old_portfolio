@@ -13,7 +13,8 @@
       display: inline;
       color: #808688; }
     .welcome .social a {
-      font-size: 28px; }
+      font-size: 28px;
+      color: #808688; }
       .welcome .social a:visited {
         color: #808688; }
   .welcome nav .btn-primary {
