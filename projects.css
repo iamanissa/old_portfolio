@@ -7,8 +7,7 @@
     height: 300px; }
   .projectView .box {
     width: 550px;
-    height: 300px;
-    margin: 0 auto; }
+    height: 300px; }
   .projectView .flipcorner {
     position: relative; }
   .projectView .flipcorner:before, .projectView .flipcorner:after {
@@ -27,5 +26,11 @@
     transform: rotate(3deg);
     right: 10px;
     left: auto; }
+  .projectView .project {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px; }
+  .projectView .projectinfo {
+    width: 550px; }
 
 /*# sourceMappingURL=projects.css.map */

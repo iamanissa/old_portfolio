@@ -14,7 +14,7 @@ $colorAccent: #00b7be;
   .box{
     width: 550px;
     height: 300px;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
   .flipcorner{
   position: relative;
@@ -36,5 +36,14 @@ $colorAccent: #00b7be;
     transform: rotate(3deg);
     right: 10px;
     left: auto;
+  }
+  .project{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+  }
+  .projectinfo{
+    width: 550px;
+    // height: 300px;
   }
 }
