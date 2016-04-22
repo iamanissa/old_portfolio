@@ -37,7 +37,7 @@ $colorIcon: #808688;
   .project{
     display: flex;
     flex-flow: row wrap;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .projectinfo{
     width: 550px;
@@ -45,6 +45,7 @@ $colorIcon: #808688;
     h3{
       font-family: 'PT Serif Caption', serif;
       font-size: 30px;
+      margin-top: 0px;
     }
     p{
       padding: 0 15px;

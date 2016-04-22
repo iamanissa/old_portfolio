@@ -28,13 +28,14 @@
   .projectView .project {
     display: flex;
     flex-flow: row wrap;
-    margin-bottom: 20px; }
+    margin-bottom: 50px; }
   .projectView .projectinfo {
     width: 550px;
     margin: 0px 20px 0px 0px; }
     .projectView .projectinfo h3 {
       font-family: 'PT Serif Caption', serif;
-      font-size: 30px; }
+      font-size: 30px;
+      margin-top: 0px; }
     .projectView .projectinfo p {
       padding: 0 15px;
       display: inline-block;
