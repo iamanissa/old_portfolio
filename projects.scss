@@ -38,6 +38,9 @@ $colorIcon: #808688;
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 50px;
+    &:first-child{
+      margin-top: 20px
+    }
   }
   .projectinfo{
     width: 550px;
@@ -74,6 +77,13 @@ $colorIcon: #808688;
         border-radius: 0.3em;
         float: left;
       }
+    }
+  }
+  .buttongrp{
+    button{
+      background-color: transparent;
+      color: $colorIcon;
+      border: 1px solid $colorIcon;
     }
   }
 }
