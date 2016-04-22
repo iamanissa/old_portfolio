@@ -18,4 +18,24 @@ $(document).ready(function(){
     $(".projectView").hide();
     $(".resumeView").show();
   });
+
+  $('#vivaWeb').click(function() {
+   window.location = "https://vivalavegan.herokuapp.com/";
+  });
+  $('#vivaCode').click(function() {
+   window.location = "https://github.com/SuperJones/vivalavegan";
+  });
+  $('#memoryWeb').click(function() {
+   window.location = "http://superjones.github.io/project1/";
+  });
+  $('#memoryCode').click(function() {
+   window.location = "https://github.com/SuperJones/project1";
+  });
+  /*Add this button later*/
+  // $('#stepsWeb').click(function() {
+  //  window.location = "#";
+  // });
+  $('#stepsCode').click(function() {
+   window.location = "https://github.com/SuperJones/project2";
+  });
 });
