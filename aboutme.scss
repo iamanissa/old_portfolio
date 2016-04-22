@@ -5,10 +5,6 @@ $colorIcon: #808688;
   text-align: center;
 
   .circle {
-  // position: absolute;
-  // top: 35%;
-  // left: 38%;
-  // display: table;
   border-radius: 200px;
   width: 300px;
   height: 300px;
@@ -17,17 +13,13 @@ $colorIcon: #808688;
   margin-left: auto;
   margin-right: auto;
   z-index: -1;
-  // text-align: center;
   }
 
   .blockquote {
-    // display: table-cell;
     vertical-align: middle;
-    // margin: 12em auto;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-    // max-width: 500px;
-    // position: relative;
+
     .contain{
       margin-top: 50px;
     }
@@ -42,7 +34,6 @@ $colorIcon: #808688;
       width: 400px;
       text-align: center;
       margin-left: -56px;
-      // padding-top: 60px;
     }
 
     span{
@@ -50,22 +41,5 @@ $colorIcon: #808688;
     }
 
   }
-  // .blockquote:before {
-  //   color: #ccc;
-  //   content: open-quote;
-  //   font-size: 6em;
-  //   line-height: 0.1em;
-  //   margin-right: 0.25em;
-  //   vertical-align: -0.4em;
-  // }
-  // .blockquote:after {
-  //   color: #ccc;
-  //   content: close-quote;
-  //   font-size: 6em;
-  //   line-height: 0.1em;
-  //   margin-left: 0.25em;
-  //   vertical-align: -0.6em;
-  // }
-
 
 }
