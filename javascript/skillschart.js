@@ -1,13 +1,46 @@
-var data = {
-  // A labels array that can contain any sort of values
-  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
-  // Our series array that contains series objects or in this case series data arrays
-  series: [
-    [5, 2, 4, 2, 0]
-  ]
-};
 
-// Create a new line chart object where as first parameter we pass in a selector
-// that is resolving to our chart container element. The Second parameter
-// is the actual data object.
-new Chartist.Line('.ct-chart', data);
+
+function createSkillsChart(){
+  var chrt = document.getElementById('mycanvas').getContext('2d');
+  var data = {
+    labels: ["HTML/CSS", "JavaScript", "AngularJS", "Ruby", "Ruby on Rails" ], //x-axis
+    datasets: [
+      {
+        label: "Skills",
+        fillColor: "rgba(220, 220, 220, 0.8)",
+        strokeColor: "rgba(220, 220, 220, 0.8)",
+        highlightFill: "rgba(220, 220, 220, 0.75)",
+        highlightStroke: "rgba(220, 220, 220,1)",
+        data: [65, 59, 80, 81, 56, 55, 40] //y-axis
+      }
+    ]
+  };
+
+  var options = {
+    scaleLabel : function (valuePayload) {
+        if(Number(valuePayload.value)===0)
+        return "zilch";
+        if(Number(valuePayload.value)===20)
+        return 'request added';
+        if(Number(valuePayload.value)===40)
+        return 'request viewed';
+        if(Number(valuePayload.value)===60)
+        return 'request accepted';
+        if(Number(valuePayload.value)===80)
+        return 'request solved';
+        if(Number(valuePayload.value)===100)
+        return 'solving confirmed';
+        },
+
+    scaleOverride: true,
+    scaleSteps: 5,
+    scaleStepWidth: 20,
+    scaleStartValue: 0
+   };
+
+   var mySkillsChart = new Chart(chrt).Bar(data, options);
+}
+
+window.onload = function() {
+   createSkillsChart();
+};

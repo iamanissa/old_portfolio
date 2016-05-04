@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+  // $('a .js-toggle-page').on('click', function( e ){
+  //
+  // })
   $(".resumeView").hide();
   $(".projectView").hide();
   $(".aboutmeView").show();
