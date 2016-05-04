@@ -7,8 +7,8 @@ function createSkillsChart(){
     datasets: [
       {
         label: "Skills",
-        fillColor: "rgba(255, 0, 0, 1)",
-        strokeColor: "rgba(0,100,0,1)",
+        fillColor: "rgba(0,183,190, 0.4)",
+        strokeColor: "rgba(0,183,190, 0.4)",
         highlightFill: "rgba(30,144,255,1)",
         highlightStroke: "rgba(220, 220, 220,1)",
         data: [78, 60, 65, 80, 50, 82, 86, 65, 50, 25] //y-axis
@@ -17,16 +17,17 @@ function createSkillsChart(){
     ],
   };
 
-  var options = {
+   var mySkillsChart = new Chart(chrt).Bar(data, {
+    responsive: true,
     scaleLabel : function (valuePayload) {
         if(Number(valuePayload.value)===0)
         return "zilch";
         if(Number(valuePayload.value)===25)
-        return 'Basic, and interested';
+        return 'Basic, but interested in learning more';
         if(Number(valuePayload.value)===50)
-        return 'Medium, and improving';
+        return "Medium, and I'm improving";
         if(Number(valuePayload.value)===75)
-        return "High, I'm pretty awesome :-) ";
+        return "High, I'm pretty good :-) ";
         if(Number(valuePayload.value)===100)
         return "Wizard Ninja Jedi Web Dev Master";
         },
@@ -35,10 +36,10 @@ function createSkillsChart(){
     scaleSteps: 4,
     scaleStepWidth: 25,
     scaleStartValue: 0,
-    scaleShowVerticalLines: false
-   };
+    scaleShowVerticalLines: false,
+    scaleFontColor: "#000000",
 
-   var mySkillsChart = new Chart(chrt).Bar(data, options);
+   });
 }
 
 window.onload = function() {
