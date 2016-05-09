@@ -90,7 +90,7 @@
     transform: rotate(-3deg); }
   .projectView .flipcorner:after {
     transform: rotate(3deg);
-    right: 10px;
+    right: 5em;
     left: auto; }
   .projectView .project {
     display: flex;
@@ -133,6 +133,9 @@
     color: #808688;
     border: 1px solid #808688; }
 
+@media screen and (min-width: 500px) {
+  .flipcorner:after {
+    right: 2em; } }
 /* RESUME PAGE
 ==============================================================================*/
 .resumeView {

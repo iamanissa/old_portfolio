@@ -127,7 +127,7 @@ $colorIcon: #808688;
   }
   .flipcorner:after{
     transform: rotate(3deg);
-    right: 10px;
+    right: 5em;
     left: auto;
   }
   .project{
@@ -184,6 +184,11 @@ $colorIcon: #808688;
   }
 }
 
+@media screen and (min-width: 500px){
+  .flipcorner:after{
+    right: 2em;
+  }
+}
 
 /* RESUME PAGE
 ==============================================================================*/
