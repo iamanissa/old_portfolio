@@ -147,7 +147,6 @@ $colorIcon: #808688;
         margin-top: 0px;
       }
       p{
-        padding: 0 15px;
         display: inline-block;
         padding: 10px 0px 0px;
         font-size: 16px;
@@ -247,6 +246,48 @@ $colorIcon: #808688;
 
     .box{
       margin-top: 2em;
+    }
+    .project{
+      display: flex;
+      flex-flow: row wrap;
+      margin-bottom: 50px;
+      &:first-child{
+        margin-top: 20px
+      }
+    }
+    .projectinfo{
+      h3{
+        font-family: 'PT Serif Caption', serif;
+        font-size: 30px;
+        margin-top: 0px;
+      }
+      p{
+        display: inline-block;
+        padding: 1em 0em 0em;
+        font-size: 1em;
+        margin: 1em 0 1em;
+        width: 30em;
+      }
+      .clearfix{
+        overflow: auto;
+      }
+    }
+    .techused{
+      height: 35px; //assist clearfix so paragraph moves down.
+      ul{
+        list-style: none;
+        padding: 0px;
+        li{
+          display: inline-block;
+          background-color: $colorAccent;
+          color: #fff;
+          padding: 0.5em;
+          margin: 0 0.35em 0.6em 0;
+          font-size: 0.8em;
+          border-radius: 0.3em;
+          float: left;
+        }
+      }
     }
   }
 }

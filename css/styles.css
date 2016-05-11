@@ -106,7 +106,6 @@
       font-size: 30px;
       margin-top: 0px; }
     .projectView .projectinfo p {
-      padding: 0 15px;
       display: inline-block;
       padding: 10px 0px 0px;
       font-size: 16px;
@@ -178,7 +177,39 @@
     left: 15em;
     transform: rotate(3deg); }
   .projectView .box {
-    margin-top: 2em; } }
+    margin-top: 2em; }
+  .projectView .project {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px; }
+    .projectView .project:first-child {
+      margin-top: 20px; }
+  .projectView .projectinfo h3 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    margin-top: 0px; }
+  .projectView .projectinfo p {
+    display: inline-block;
+    padding: 1em 0em 0em;
+    font-size: 1em;
+    margin: 1em 0 1em;
+    width: 30em; }
+  .projectView .projectinfo .clearfix {
+    overflow: auto; }
+  .projectView .techused {
+    height: 35px; }
+    .projectView .techused ul {
+      list-style: none;
+      padding: 0px; }
+      .projectView .techused ul li {
+        display: inline-block;
+        background-color: #00b7be;
+        color: #fff;
+        padding: 0.5em;
+        margin: 0 0.35em 0.6em 0;
+        font-size: 0.8em;
+        border-radius: 0.3em;
+        float: left; } }
 /* RESUME PAGE
 ==============================================================================*/
 .resumeView {
