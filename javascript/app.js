@@ -35,10 +35,9 @@ $(document).ready(function(){
   $('#memoryCode').click(function() {
    window.location = "https://github.com/SuperJones/project1";
   });
-  /*Add this button later*/
-  // $('#stepsWeb').click(function() {
-  //  window.location = "#";
-  // });
+  $('#stepsWeb').click(function() {
+   window.location = "https://steps-battle.herokuapp.com/";
+  });
   $('#stepsCode').click(function() {
    window.location = "https://github.com/SuperJones/project2";
   });
