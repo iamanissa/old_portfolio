@@ -222,25 +222,26 @@ $colorIcon: #808688;
   .projectView{
     img{
       border: 2px solid lighten($colorIcon, 20%);
-      width: 32em;
-      height: 20em;
+      width: 100%;
+      height: auto;
     }
     .flipcorner:before, .flipcorner:after{
       z-index: -1;
       position: absolute;
       content: "";
       bottom: 15px;
-      left: 10px;
       width: 50%;
       top: 80%;
-      left: 6%;
       max-width:300px;
       background: #777;
       box-shadow: 0 15px 10px #777;
       transform: rotate(-3deg);
     }
+    .flipcorner:before{
+      left: 6%;
+    }
     .flipcorner:after{
-      left: 15em;
+      left: 44%;
       transform: rotate(3deg);
     }
 

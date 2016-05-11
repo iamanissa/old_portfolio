@@ -158,23 +158,23 @@
 @media screen and (max-width: 640px) {
   .projectView img {
     border: 2px solid #b5b8b9;
-    width: 32em;
-    height: 20em; }
+    width: 100%;
+    height: auto; }
   .projectView .flipcorner:before, .projectView .flipcorner:after {
     z-index: -1;
     position: absolute;
     content: "";
     bottom: 15px;
-    left: 10px;
     width: 50%;
     top: 80%;
-    left: 6%;
     max-width: 300px;
     background: #777;
     box-shadow: 0 15px 10px #777;
     transform: rotate(-3deg); }
+  .projectView .flipcorner:before {
+    left: 6%; }
   .projectView .flipcorner:after {
-    left: 15em;
+    left: 44%;
     transform: rotate(3deg); }
   .projectView .box {
     margin-top: 2em; }
