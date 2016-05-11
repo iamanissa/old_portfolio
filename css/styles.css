@@ -133,6 +133,52 @@
     color: #808688;
     border: 1px solid #808688; }
 
+@media screen and (max-width: 1199px) {
+  .projectView img {
+    border: 2px solid #b5b8b9;
+    width: 32em;
+    height: 20em; }
+  .projectView .flipcorner:before, .projectView .flipcorner:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    left: 6%;
+    max-width: 300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg); }
+  .projectView .flipcorner:after {
+    left: 15em;
+    transform: rotate(3deg); }
+  .projectView .box {
+    margin-top: 2em; } }
+@media screen and (max-width: 640px) {
+  .projectView img {
+    border: 2px solid #b5b8b9;
+    width: 32em;
+    height: 20em; }
+  .projectView .flipcorner:before, .projectView .flipcorner:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    left: 6%;
+    max-width: 300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg); }
+  .projectView .flipcorner:after {
+    left: 15em;
+    transform: rotate(3deg); }
+  .projectView .box {
+    margin-top: 2em; } }
 /* RESUME PAGE
 ==============================================================================*/
 .resumeView {
