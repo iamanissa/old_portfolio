@@ -54,6 +54,12 @@
     width: 40em !important;
     height: 25em !important; } }
 @media (max-width: 640px) {
+  .aboutpara {
+    margin: auto;
+    margin-bottom: 5em;
+    text-align: center;
+    padding: 0em 40em; }
+
   #mycanvas {
     margin: 5em;
     width: 40em !important;

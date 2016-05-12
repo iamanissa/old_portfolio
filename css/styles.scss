@@ -69,7 +69,6 @@ $colorIcon: #808688;
 }
 
 
-
 #mycanvas{
   margin: 5em;
   width: 70em !important;
@@ -85,6 +84,12 @@ $colorIcon: #808688;
 }
 
 @media(max-width: 640px){
+  .aboutpara{
+    margin: auto;
+    margin-bottom: 5em;
+    text-align: center;
+    padding: 0em 40em;
+  }
   #mycanvas{
     margin: 5em;
     width: 40em !important;
