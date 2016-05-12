@@ -7,21 +7,22 @@
   border-bottom: 2px solid #ccc; }
   .welcome h1 {
     font-family: 'PT Serif Caption', serif;
-    font-size: 50px; }
+    font-size: 4em; }
   .welcome .social {
-    padding: 0px; }
+    padding: 0; }
     .welcome .social li {
       list-style: none;
       display: inline;
       color: #808688; }
     .welcome .social a {
-      font-size: 28px;
+      font-size: 2.5em;
       color: #808688; }
       .welcome .social a:visited {
         color: #808688; }
   .welcome nav .btn-primary {
     background-color: #00b7be !important;
-    border-color: #fff !important; }
+    border-color: #fff !important;
+    font-size: 1.2em; }
     .welcome nav .btn-primary:focus {
       background-color: rgba(0, 183, 190, 0.81) !important; }
 
@@ -364,6 +365,6 @@
     padding-left: 3em; }
 
   .timeline > li > h2 {
-    padding-left: 1em; } }
+    padding-left: .2em; } }
 
 /*# sourceMappingURL=styles.css.map */

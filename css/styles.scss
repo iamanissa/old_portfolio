@@ -11,17 +11,17 @@ $colorIcon: #808688;
   border-bottom: 2px solid #ccc;
   h1{
     font-family: 'PT Serif Caption', serif;
-    font-size: 50px;
+    font-size: 4em;
   }
   .social{
-      padding: 0px;
+      padding: 0;
     li{
       list-style: none;
       display: inline;
       color: $colorIcon;
     }
     a{
-      font-size: 28px;
+      font-size: 2.5em;
       color: $colorIcon;
       &:visited{
         color: $colorIcon;
@@ -32,6 +32,7 @@ $colorIcon: #808688;
     .btn-primary{
       background-color: $colorAccent !important;
       border-color: #fff !important;
+      font-size: 1.2em;
      &:focus{
         background-color: rgba(0,183,190,0.81) !important;
       }
@@ -473,6 +474,6 @@ $colorIcon: #808688;
     padding-left: 3em;
 }
   .timeline > li > h2{
-      padding-left: 1em;
+      padding-left: .2em;
     }
 }
