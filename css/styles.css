@@ -357,4 +357,13 @@
 .timeline-heading > h5 {
   color: #00a0a6; }
 
+@media screen and (max-width: 640px) {
+  .timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 3em; }
+
+  .timeline > li > h2 {
+    padding-left: 1em; } }
+
 /*# sourceMappingURL=styles.css.map */
