@@ -76,6 +76,7 @@ $colorIcon: #808688;
 #mycanvas{
   margin-left: 10%;
   width: 70% !important;
+  font-size: 1em;
 }
 
 
@@ -97,6 +98,8 @@ $colorIcon: #808688;
   #mycanvas{
     margin-left: 0%;
     width: 100% !important;
+    height: 50%;
+    font-size: .2em;
   }
 }
 

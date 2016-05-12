@@ -18,7 +18,8 @@ function createSkillsChart(){
   };
 
    var mySkillsChart = new Chart(chrt).Bar(data, {
-    // responsive: true,
+    responsive: true,
+    maintainAspectRatio: false,
     scaleLabel : function (valuePayload) {
         if(Number(valuePayload.value)===0)
         return "zilch";
