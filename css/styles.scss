@@ -71,6 +71,9 @@ $colorIcon: #808688;
       border-top: 3px dotted $colorAccent;
       border-bottom: 3px dotted $colorIcon;
     }
+    .logopic{
+      display: none;
+    }
 
 }
 #mycanvas{
@@ -96,11 +99,17 @@ $colorIcon: #808688;
     text-align: center;
   }
   #mycanvas{
-    margin-left: 0%;
-    width: 100% !important;
-    height: 50%;
-    font-size: .2em;
-    transform: rotate(90deg);
+    display: none;
+  }
+  .aboutmeView{
+    .logopic{
+      display: block;
+    }
+    img{
+      width: 70%;
+      height: auto;
+      margin-left:5em;
+    }
   }
 }
 

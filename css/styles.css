@@ -47,6 +47,8 @@
   width: 50%;
   border-top: 3px dotted #00b7be;
   border-bottom: 3px dotted #808688; }
+.aboutmeView .logopic {
+  display: none; }
 
 #mycanvas {
   margin-left: 10%;
@@ -60,11 +62,14 @@
     text-align: center; }
 
   #mycanvas {
-    margin-left: 0%;
-    width: 100% !important;
-    height: 50%;
-    font-size: .2em;
-    transform: rotate(90deg); } }
+    display: none; }
+
+  .aboutmeView .logopic {
+    display: block; }
+  .aboutmeView img {
+    width: 70%;
+    height: auto;
+    margin-left: 5em; } }
 /* PROJECTS PAGE
 ==============================================================================*/
 .projectView {
