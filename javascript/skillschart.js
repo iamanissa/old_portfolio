@@ -11,7 +11,7 @@ function createSkillsChart(){
         strokeColor: "rgba(0,183,190, 0.4)",
         highlightFill: "rgba(30,144,255,1)",
         highlightStroke: "rgba(220, 220, 220,1)",
-        data: [78, 60, 65, 80, 50, 82, 86, 65, 50, 25] //y-axis
+        data: [90, 70, 60, 80, 55, 82, 86, 65, 50, 25] //y-axis
 
       }
     ],
