@@ -45,17 +45,20 @@ $colorIcon: #808688;
 .aboutmeView{
 
     .aboutpara{
+      margin: auto;
       margin-bottom: 5em;
+      text-align: center;
+      padding: 0em 20em;
     }
 
     h3{
-      font-size: 1.5em;
+      font-size: 2em;
       font-family: 'PT Serif Caption', serif;
       text-align: center;
+      margin-bottom: .8em;
     }
     p{
       font-size: 1.5em;
-      width: 40em;
       margin: auto;
     }
 
