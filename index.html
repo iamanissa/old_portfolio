@@ -43,36 +43,57 @@
     <!-- ABOUT ME========================================-->
     <div class="aboutmeView">
 
-      <div class="circle">
-        <div class="blockquote">
-          <div class="contain">
-          <p class="quotation"><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-          <p class="webdevbold">
-            I am a <span>Web Developer</span>
-          </p>
-          <p>
-            who initiates effective communication between teammates and clients and exudes enthusiasm for object oriented programming. I pride myself as being a knowledge marauder who creates web solutions that inspire, educate, and empower people to reach their defining moments.
-          </p>
-          <p class="quotation"><i class="fa fa-quote-right" aria-hidden="true"></i></p>
-          </div>
+      <div class="col-xs-12 aboutpara">
+        <h3>ABOUT ME</h3>
+        <p>
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          I am a <span>Web Developer</span>
+          who initiates effective communication between teammates and clients and exudes enthusiasm for object oriented programming. I pride myself as being a knowledge marauder who creates web solutions that inspire, educate, and empower people to reach their defining moments.<i class="fa fa-quote-right" aria-hidden="true"></i>
+        </p>
         </div>
+
+        <!-- Chart.js -->
+        <div class="col-xs-12 chart">
+          <h3>SKILLS</h3>
+          <canvas id="mycanvas"></canvas>
+        </div>
+
+
       </div>
 
-      <!-- Chart.js -->
-
-      <canvas id="mycanvas"></canvas>
 
 
-    </div>
-
-
-<!-- TODO: add more content to Steps Battle info -->
 <!-- TODO: Look into turning pictures into a video or slideshow. -->
-<!-- TODO: Responsive: Text is so small and under projects there needs to be padding.  -->
 
     <!-- PROJECTS========================================-->
 
     <div class="projectView">
+
+      <!-- Steps Battle -->
+      <div class="col-md-12 project">
+        <div class="col-md-6 projectinfo">
+          <h3>Steps Battle</h3>
+          <div class="techused">
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>Boostrap</li>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+          <p class="clearfix">Use the steps you took from each day from your steps tracker to gain points for avatar upgrades. The more you workout the more equipment upgrades you can afford. Battle other players and may the fittest player win.</p>
+          <div class="buttongrp">
+            <button id="stepsWeb" class="btn btn-primary-outline btn-sm">Website</button>
+            <button id="stepsCode" class="btn btn-primary-outline btn-sm">Checkout Code</button>
+          </div>
+        </div>
+        <div class="col-md-6 box flipcorner">
+          <img src="./photos/stepsbattle.png" class="img-fluid" alt="Track steps for fun with stepsbattle">
+        </div>
+      </div>
 
         <!-- Viva la vegan -->
         <div class="col-md-12 project">
@@ -117,31 +138,6 @@
           </div>
           <div class="col-md-6 box flipcorner">
             <img src="./photos/memoryplay.png" class="img-fluid" alt="Memory Game with colors">
-          </div>
-        </div>
-        <!-- Steps Battle -->
-        <div class="col-md-12 project">
-          <div class="col-md-6 projectinfo">
-            <h3>Steps Battle</h3>
-            <div class="techused">
-              <ul>
-                <li>HTML</li>
-                <li>CSS/SASS</li>
-                <li>Boostrap</li>
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>PostgreSQL</li>
-                <li>jQuery</li>
-              </ul>
-            </div>
-            <p class="clearfix">Use your steps tracker to gain points for avatar upgrades. Battle other players and may the fitness player win.</p>
-            <div class="buttongrp">
-              <button id="stepsWeb" class="btn btn-primary-outline btn-sm">Website</button>
-              <button id="stepsCode" class="btn btn-primary-outline btn-sm">Checkout Code</button>
-            </div>
-          </div>
-          <div class="col-md-6 box flipcorner">
-            <img src="./photos/stepsbattle.png" class="img-fluid" alt="Track steps for fun with stepsbattle">
           </div>
         </div>
 
