@@ -24,7 +24,7 @@ function createSkillsChart(){
         if(Number(valuePayload.value)===0)
         return "zilch";
         if(Number(valuePayload.value)===25)
-        return 'Basic, but interested in learning more';
+        return 'Basic, & learning more';
         if(Number(valuePayload.value)===50)
         return "Medium, and I'm improving";
         if(Number(valuePayload.value)===75)

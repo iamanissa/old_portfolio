@@ -63,7 +63,8 @@
     margin-left: 0%;
     width: 100% !important;
     height: 50%;
-    font-size: .2em; } }
+    font-size: .2em;
+    transform: rotate(90deg); } }
 /* PROJECTS PAGE
 ==============================================================================*/
 .projectView {
