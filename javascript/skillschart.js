@@ -38,6 +38,7 @@ function createSkillsChart(){
     scaleStartValue: 0,
     scaleShowVerticalLines: false,
     scaleFontColor: "#000000",
+    scaleFontSize: 16
 
    });
 }
