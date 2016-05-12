@@ -43,7 +43,6 @@ $colorIcon: #808688;
 ==============================================================================*/
 
 .aboutmeView{
-
     .aboutpara{
       margin: auto;
       margin-bottom: 5em;
@@ -65,22 +64,29 @@ $colorIcon: #808688;
       font-weight: bold;
     }
 
+    .dividline{
+      margin-left: 25%;
+      margin-bottom: 5em;
+      width: 50%;
+      border-top: 3px dotted $colorAccent;
+      border-bottom: 3px dotted $colorIcon;
+    }
+
 }
-
-
 #mycanvas{
-  margin: 5em;
-  width: 70em !important;
-  height: 25em !important;
+  margin-left: 10%;
+  width: 70% !important;
 }
 
-@media(max-width: 1199px){
-  #mycanvas{
-    margin: 5em;
-    width: 40em !important;
-    height: 25em !important;
-  }
-}
+
+
+// @media(max-width: 1199px){
+//   #mycanvas{
+//     margin: 5em;
+//     width: 40em !important;
+//     height: 25em !important;
+//   }
+// }
 
 @media(max-width: 640px){
   .aboutpara{
@@ -89,9 +95,8 @@ $colorIcon: #808688;
     text-align: center;
   }
   #mycanvas{
-    margin: 5em;
-    width: 40em !important;
-    height: 25em !important;
+    margin-left: 0%;
+    width: 100% !important;
   }
 }
 
