@@ -38,7 +38,8 @@
   margin-bottom: .8em; }
 .aboutmeView p {
   font-size: 1.5em;
-  margin: auto; }
+  margin: auto;
+  padding: .5em 0; }
 .aboutmeView span {
   font-weight: bold; }
 .aboutmeView .dividline {
