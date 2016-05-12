@@ -58,13 +58,17 @@
       font-weight: bold; }
 
 #mycanvas {
-  width: 800px !important;
-  height: 300px !important; }
+  width: 80em !important;
+  height: 30em !important; }
 
-@media (max-width: 600px) {
+@media (max-width: 1199px) {
   #mycanvas {
-    width: 400px !important;
-    height: 250px !important; } }
+    width: 40em !important;
+    height: 25em !important; } }
+@media (max-width: 640px) {
+  #mycanvas {
+    width: 40em !important;
+    height: 25em !important; } }
 /* PROJECTS PAGE
 ==============================================================================*/
 .projectView {
