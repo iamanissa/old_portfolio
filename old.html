@@ -1,0 +1,261 @@
+<body>
+  <div class="container-fluid">
+    <div class="welcome">
+      <!-- about me -->
+      <h1>Anissa Jones</h1>
+      <!-- Contact information. -->
+      <ul class="social">
+        <li><a href="https://github.com/SuperJones"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/anissadjones"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/i_am_anissa"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:anissajones10@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
+
+      <!-- Main navigation -->
+      <nav>
+        <button id="projects" class="btn btn-primary" >Projects</button>
+        <button id="aboutme" class="btn btn-primary" >About Me</button>
+        <button id="resume" class="btn btn-primary" >Resume</button>
+      </nav>
+    </div>
+
+
+    <!-- ABOUT ME========================================-->
+    <div class="aboutmeView">
+
+      <div class="col-xs-12 aboutpara">
+        <h3>ABOUT ME</h3>
+        <i class="fa fa-quote-left" aria-hidden="true"></i>
+        <p>
+          I am a <span>Web Developer</span>.
+          If I'm not moving, growing, and learning, then I make it my mission to find a way to do so. Ones comfort zone is peaceful and familiar, but where is the fun in that?
+        </p>
+        <p>
+          I find passions in the places that have shaped who I am and have changed those around me. In short, I have a soft spot for women and children issues and I get excited by programming. I'm eager to be able to create the web solutions that inspire, educate, and empower people.
+        </p>
+        <i class="fa fa-quote-right" aria-hidden="true"></i>
+      </div>
+
+      <div class="col-xs-12 dividline"></div>
+
+      <!-- Chart.js -->
+      <div class="col-xs-12 chart">
+        <h3>SKILLS</h3>
+        <canvas id="mycanvas"></canvas>
+      </div>
+
+      <div class="col-xs-12 logopic">
+        <img src="./photos/logocombobox.png" alt="logos of skills">
+      </div>
+
+
+    </div>
+
+
+
+<!-- TODO: Look into turning pictures into a video or slideshow. -->
+
+    <!-- PROJECTS========================================-->
+
+    <div class="projectView">
+
+      <!-- Steps Battle -->
+      <div class="col-md-12 project">
+        <div class="col-md-6 projectinfo">
+          <h3>Steps Battle</h3>
+          <div class="techused">
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>Boostrap</li>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+          <p class="clearfix">Use the steps you took from each day from your steps tracker to gain points for avatar upgrades. The more you workout the more equipment upgrades you can afford. Battle other players and may the fittest player win.</p>
+          <div class="buttongrp">
+            <button id="stepsWeb" class="btn btn-primary-outline btn-sm">Website</button>
+            <button id="stepsCode" class="btn btn-primary-outline btn-sm">Checkout Code</button>
+          </div>
+        </div>
+        <div class="col-md-6 box flipcorner">
+          <img src="./photos/stepsbattle.png" class="img-fluid" alt="Track steps for fun with stepsbattle">
+        </div>
+      </div>
+
+        <!-- Viva la vegan -->
+        <div class="col-md-12 project">
+          <div class="col-md-6 projectinfo">
+            <h3>Viva-la-Vegan</h3>
+            <div class="techused">
+              <ul>
+                <li>HTML</li>
+                <li>SASS</li>
+                <li>Bootstrap</li>
+                <li>Ruby on Rails</li>
+                <li>AngularJS</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+            <p class="clearfix">A web application for the modern vegan. This app is designed to help vegans find the vegan food options at fast food chains and restaurants. Instead of Googling "what can I eat at this restaurant?," and searching through websites and blogs for the answer, you can now easily find everything in one app. It has full CRUD functionality,  built with AngularJS on top of a Ruby on Rails API.</p>
+            <div class="buttongrp">
+              <button id="vivaWeb" class="btn btn-primary-outline btn-sm">Website</button>
+              <button id="vivaCode" class="btn btn-primary-outline btn-sm">Checkout Code</button>
+            </div>
+        </div>
+          <div class="col-md-6 box flipcorner">
+            <img src="./photos/veganproject.png" class="img-fluid" alt="Viva-la-Vegan Project">
+          </div>
+        </div>
+        <!-- Memory Game -->
+        <div class="col-md-12 project">
+          <div class="col-md-6 projectinfo">
+            <h3>Color Memory</h3>
+            <div class="techused">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Vanilla Javascript</li>
+              </ul>
+            </div>
+            <p class="clearfix">Test your memory skills with this simple memory game. Find all the matching colors  and be cheered on when you win. Always have a new shuffled deck upon reset to keep your skills sharp.</p>
+            <div class="buttongrp">
+              <button id="memoryWeb" class="btn btn-primary-outline btn-sm">Website</button>
+              <button id="memoryCode" class="btn btn-primary-outline btn-sm">Checkout Code</button>
+            </div>
+          </div>
+          <div class="col-md-6 box flipcorner">
+            <img src="./photos/memoryplay.png" class="img-fluid" alt="Memory Game with colors">
+          </div>
+        </div>
+
+    </div>
+
+
+    <!-- RESUME==========================================-->
+    <div class="resumeView">
+      <ul class="timeline">
+        <li>
+          <h5><a href="./photos/AnissaWeb2016.pdf" class="pdf">Print Resume</a></h5>
+        </li>
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-briefcase mainicon" aria-hidden="true"></i></div>
+          <h2>Experience</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Web Developer</h4>
+              <h5>General Assemb.ly</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Feb 2016 - May 2016</span>
+              <p>Viva la Vegan: an application that provides users with the vegan options at
+                restaurant chains (AngularJS, Ruby of Rails, PostgreSQL).
+              </p>
+              <p>
+                Steps Battle: an application that turns step tracker data into game points, so that a user can upgrade their game equipment and duel others players (Ruby, Ruby on Rails, PostgreSQL, Bootstrap, SASS, and HTML).
+              </p>
+              <p>
+                Memory: a front end memory game (JavaScript, HTML, and CSS).
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Help Desk Technician</h4>
+              <h5>Environmental Protection Agency</h5>
+            </div>
+            <div class="timeline-body">
+              <span>May 2015 - Jan 2016</span>
+              <p>Supported all 13 offices of the EPA by troubleshooting, diagnosing, and
+                resolving software and hardware issues.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2015</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Teller</h4>
+              <h5>Bank of America</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Oct 2014 - Jan 2015</span>
+              <p>  Boosted sales for region and was in the top 5 percentile for customer
+                engagement rate within 2 months of being in the company.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2014</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sales Associate</h4>
+              <h5>Nordstrom Rack</h5>
+            </div>
+            <div class="timeline-body">
+              <span>Apr 2013 - Oct 2014</span>
+              <p>Mastered re-ticketing program for maintaining inventory and trained over 20 new hires on system.</p>
+              <p>Was promoted to Interim Assistant Manager in the Women's Department after generating sales of over $10,000.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-graduation-cap mainicon" aria-hidden="true"></i></i></div>
+          <h2>Education</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2010</span></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Bachelor of Arts</h4>
+              <h5>University of Alabama at Birmingham</h5>
+            </div>
+            <div class="timeline-body">
+              <span>2007 - 2010</span>
+              <p>Majored in Theatre </p>
+              <p>Sum Cum Laude.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge mainbadge"><i class="fa fa-star mainicon" aria-hidden="true"></i></div>
+          <h2>Certifications</h2>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2016</span></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Web Developement Immersive Certificate</h4>
+              <h5>General Assemb.ly</h5>
+            </div>
+            <div class="timeline-body">
+              <span>April 2016</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><span class="date">2015</span></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">CompTIA A+ Certification</h4>
+              <h5>PerScholas IT Ready Training</h5>
+            </div>
+            <div class="timeline-body">
+              <span>April 2015</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
