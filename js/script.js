@@ -6,8 +6,12 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, '+ wScroll /2 +'%)'
   });
 
+  $(".leaves").css({
+    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+  });
+
   $(".yellow-flower").css({
-    'transform' : 'translate(0px, -'+ wScroll /20 +'%)'
+    'transform' : 'translate('+ wScroll /80 +'%, '+ wScroll /2 +'%)'
   });
 
 });

@@ -50,12 +50,23 @@ img{
 .yellow-flower{
   width: 960px;
   height: 480px;
-  /*background-color: rgba(244, 108, 211, 0.32);*/
   background-image: url("../photos/yellow-flower.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
   left: 65%;
   margin-left: -480px;
-  top: 280px;
+  top: 250px;
+}
+
+.leaves{
+  width: 960px;
+  height: 425px;
+  /*background-color: rgba(244, 108, 211, 0.32);*/
+  background-image: url("../photos/leaves.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -530px;
+
 }
