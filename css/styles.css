@@ -1,5 +1,8 @@
 body{
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 h1{
@@ -7,10 +10,15 @@ h1{
   font-weight: 300;
 }
 
-/*figure{
-  margin:auto;
-}*/
+p{
+  color: rgb(217, 210, 217);
+  font-size: 1.2em;
+}
 
+.content{
+  background-image: url("../photos/chalkboard.png");
+  background-repeat: no-repeat;
+}
 .content article{
   padding: 100px 0;
   max-width: 640px;
@@ -36,14 +44,13 @@ img{
 }
 
 .anissalogo{
-  height: 100px;
+  height: 380px;
   width: 100%;
-  /*background-color: pink;*/
   background-image: url("../photos/anissalogo-wht.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 50%;
+  top: 25%;
   margin-top: -50px;
 }
 
@@ -62,11 +69,27 @@ img{
 .leaves{
   width: 960px;
   height: 425px;
-  /*background-color: rgba(244, 108, 211, 0.32);*/
   background-image: url("../photos/leaves.png");
   background-repeat: no-repeat;
   position: absolute;
-  left: 50%;
+  left: 35%;
   margin-left: -530px;
 
+}
+
+/*===================== ABOUT ME ===================*/
+
+.aboutme{
+  width: 50%;
+  height: 160px;
+  background-image: url("../photos/abouttitle.png");
+  /*background-color: rgba(247, 114, 178, 0.53);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  margin-top: -4em;
+}
+
+.about p{
+  margin-top: 7em;
 }
