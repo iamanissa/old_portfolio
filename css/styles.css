@@ -3,6 +3,7 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 h1{
@@ -79,7 +80,7 @@ img{
 
 /*===================== ABOUT ME ===================*/
 
-.aboutme{
+.aboutme-title{
   height: 160px;
   width: 50%;
   background-image: url("../photos/abouttitle.png");
@@ -91,7 +92,41 @@ img{
   margin-top: -4em;
 }
 
-.about p{
+.abouttext p{
   margin-top: 6em;
-  background-color: rgba(247, 114, 178, 0.53);
+}
+
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+  margin-left: .5em;
+  margin-right: .5em;
+  /*background-color: rgba(247, 114, 178, 0.53);*/
+}
+
+.light-bulb{
+  margin-top: 5em;
+  margin-left: 1.5em;
+  /*-ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+  transform: rotate(-7deg);*/
+  display: block;
+}
+
+.about{
+  flex-grow: 2;
+}
+
+.laptop{
+  margin-top: 5em;
+  margin-left: 1.5em;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+  overflow: hidden;
+  white-space: nowrap;
+  float: left;
 }
