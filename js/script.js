@@ -3,7 +3,7 @@ $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
 
   $(".anissalogo").css({
-    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+    'transform' : 'translate(0px, '+ wScroll /8 +'%)'
   });
 
   $(".leaves").css({
