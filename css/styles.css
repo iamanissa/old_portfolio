@@ -96,7 +96,7 @@ img{
   margin-top: 6em;
 }
 
-.gridAbout {
+.gridAbout, .gridSkills {
   display: flex;
 }
 
@@ -142,4 +142,90 @@ img{
 .icon-about.is-showing{
   opacity: 1;
   transform: translateX(0px);
+}
+
+/*======================== SKILLS ========================*/
+
+.gridSkills{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: larger;
+  color: rgb(235, 223, 226);
+}
+
+.gridSkills .Grid-cell:nth-last-child(odd){
+  flex-grow: 5;
+}
+#chart{
+  width: 800px;
+  height: 250px;
+  margin: 30px;
+  display: block;
+}
+
+#numbers{
+  width: 50px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+#numbers li{
+  text-align: right;
+  padding-right: 1em;
+  list-style: none;
+  height: 29px;
+  border-bottom: 1px solid #444;
+  position: relative;
+  bottom: 30px;
+}
+
+#numbers li span{
+  color: #eee;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+#bars{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  width: 750px;
+  height: 300px;
+  padding: 0px;
+  margin: 0;
+  box-shadow: 0 0 0 1px #444;
+}
+
+#bars li{
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+#bars li .bar {
+  display: block;
+  width: 70px;
+  margin-left: 15px;
+  background: #49E;
+  position: absolute;
+  bottom: 0;
+}
+
+#bars li .bar:before{
+  color: white;
+  content: attr(data-percentage)'%';
+  position: relative;
+  bottom: 20px;
+}
+#bars li span {
+  color: #eee;
+  width: 100%;
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  text-align: center;
 }

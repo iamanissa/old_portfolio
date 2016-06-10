@@ -14,7 +14,7 @@ $(window).scroll(function(){
     'transform' : 'translate('+ wScroll /80 +'%, '+ wScroll /2 +'%)'
   });
 
-  // ==========  About me pics moving =============
+  // =============== ABOUT ME MOVING PICS =============
 
   // if the scroll number is greater than whatever the top of the window is minus the actual windows height / 1.5 (for midpoint of window)
   if(wScroll > $('.gridAbout').offset().top - ($(window).height() / 1.5)){
@@ -26,6 +26,22 @@ $(window).scroll(function(){
       setTimeout(function(){
         $('.gridAbout .icon-about').eq(i).addClass('is-showing');
       }, 150 * (i+1));
+    });
+  }
+
+
+//================ SKILLS BAR CHART =====================
+
+  if(wScroll > $('.gridSkills').offset().top - ($(window).height() / 1.5)){
+
+    $(function() {
+      $("#bars li .bar").each( function( key, bar ) {
+        var percentage = $(this).data('percentage');
+
+        $(this).animate({
+          'height' : percentage + '%'
+        }, 1000);
+      });
     });
   }
 });
