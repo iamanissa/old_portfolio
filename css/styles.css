@@ -21,7 +21,7 @@ p{
   background-repeat: no-repeat;
 }
 .content article{
-  padding: 100px 0;
+  padding: 100px 0 0;
   max-width: 640px;
   margin: 0 auto;
   text-align: center;
@@ -31,7 +31,7 @@ img{
   max-width: 100%;
 }
 
-/*===================== HEADER ===================*/
+/*========================= HEADER =======================*/
 
 .jumbo-blur{
   position: relative;
@@ -78,7 +78,7 @@ img{
 
 }
 
-/*===================== ABOUT ME ===================*/
+/*========================= ABOUT ME =====================*/
 
 .aboutme-title{
   height: 160px;
@@ -96,7 +96,7 @@ img{
   margin-top: 6em;
 }
 
-.Grid {
+.gridAbout {
   display: flex;
 }
 
@@ -110,9 +110,9 @@ img{
 .light-bulb{
   margin-top: 5em;
   margin-left: 1.5em;
-  /*-ms-transform: rotate(-7deg); /* IE 9 */
+  -ms-transform: rotate(-7deg); /* IE 9 */
   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-  transform: rotate(-7deg);*/
+  transform: rotate(-7deg);
   display: block;
 }
 
@@ -129,4 +129,17 @@ img{
   overflow: hidden;
   white-space: nowrap;
   float: left;
+}
+
+/*======== About Animate =======*/
+
+.icon-about{
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+.icon-about.is-showing{
+  opacity: 1;
+  transform: translateX(0px);
 }
