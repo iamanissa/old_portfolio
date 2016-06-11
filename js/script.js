@@ -39,7 +39,8 @@ $(window).scroll(function(){
         var percentage = $(this).data('percentage');
 
         $(this).animate({
-          'height' : percentage + '%'
+          'height' : percentage + '%',
+        
         }, 1000);
       });
     });
