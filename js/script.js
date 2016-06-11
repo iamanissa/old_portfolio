@@ -40,9 +40,32 @@ $(window).scroll(function(){
 
         $(this).animate({
           'height' : percentage + '%',
-        
+
         }, 1000);
       });
     });
   }
 });
+
+//================ PROJECTS =====================
+
+
+  $('#vivaWeb').click(function() {
+    window.open("https://vivalavegan.herokuapp.com/", '_blank');
+  });
+  $('#vivaCode').click(function() {
+   window.open( "https://github.com/SuperJones/vivalavegan", '_blank');
+  });
+
+  $('#memoryWeb').click(function() {
+   window.open("http://superjones.github.io/project1/", '_black');
+  });
+  $('#memoryCode').click(function() {
+   window.open("https://github.com/SuperJones/project1", '_black');
+  });
+  $('#stepsWeb').click(function() {
+   window.open("https://steps-battle.herokuapp.com/", '_black');
+  });
+  $('#stepsCode').click(function() {
+   window.open("https://github.com/SuperJones/project2", '_black');
+  });
