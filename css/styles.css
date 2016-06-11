@@ -97,7 +97,7 @@ img{
   padding-top: 2em;
 }
 
-.gridAbout, .gridSkills {
+.gridAbout, .gridSkills, .gridProjects {
   display: flex;
   margin-top: 1em;
 }
@@ -236,12 +236,50 @@ img{
   transform: rotate(-30deg);
   white-space: nowrap;
 }
+
+/*=============================== PROJECTS =================================*/
+
+.gridProjects{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.row{
+  padding: 5px;
+  width: 1260px;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.Grid-cell2{
+  padding: 5px;
+  width: 510px;
+  height: 350px;
+}
+
+.gridProjects img{
+  border: 2px solid #b5b8b9;
+  width: 42vw;
+  height: 23vw;
+}
+
+
 /*=============================== LARGE WINDOW =============================*/
 
 .large-window{
-  height: 400px;
+  height: 600px;
+  width: auto;
   background-image: url("../photos/giphy.gif");
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
