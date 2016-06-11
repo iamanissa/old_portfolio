@@ -240,7 +240,9 @@ img{
 }
 
 /*=============================== PROJECTS =================================*/
-
+.projects{
+  margin-top: 2em;
+}
 .gridProjects{
   flex-direction: row;
   flex-wrap: wrap;
@@ -249,6 +251,10 @@ img{
   align-items: flex-start;
   margin-bottom: 1em;
   margin-top: 10em;
+}
+
+.row:first-child {
+  margin-top: 40px;
 }
 
 .row{
@@ -287,8 +293,10 @@ img{
 }
 
 .gridProjects h2{
-  font-size: 2.5em;
-  font-family: 'Delius', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: normal;
+  font-size: 3em;
+  margin: 20px auto 10px;
 }
 
 .gridProjects p{
@@ -297,14 +305,14 @@ img{
 }
 
 .coffeestain1{
-  height: 160px;
+  height: 165px;
   width: 50%;
   background-image: url("../photos/coffeestain1.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   right: 25%;
-  margin-top: -9.8em;
+  margin-top: -12em;
 }
 
 .coffeestain2{
