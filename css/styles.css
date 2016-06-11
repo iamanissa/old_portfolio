@@ -317,7 +317,7 @@ img{
 
 .coffeestain2{
   height: 160px;
-  width: 50%;
+  width: 20%;
   background-image: url("../photos/coffeestain2.png");
   background-repeat: no-repeat;
   position: absolute;
@@ -338,12 +338,30 @@ img{
 
 .coffeestain4{
   height: 400px;
-  width: 50%;
+  width: 20%;
   background-image: url("../photos/coffeestain4.png");
   background-repeat: no-repeat;
   position: absolute;
   margin-left: -6em;
   margin-top: 1em;
+}
+
+button{
+  z-index: 5;
+}
+.astext {
+    background:none;
+    border:none;
+    margin: 0;
+    padding: 0 8px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 22px;
+}
+
+.astext:hover{
+  font-size: 28px;
+  color: rgb(213, 210, 210);
+  background-color: rgb(33, 33, 32);
 }
 
 
