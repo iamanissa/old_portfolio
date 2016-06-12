@@ -368,10 +368,19 @@ button{
 
 .large-window{
   height: 600px;
-  width: auto;
+  width: 50%;
   background-image: url("../photos/giphy.gif");
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin: 25px 100px 0 420px;
+  border-radius: 50%;
+}
+
+.chalkboard{
+  height: 650px;
+  background-image: url("../photos/chalkboard2.png");
+  background-size: cover;
+  padding-top: .5px; /*to center circle window*/
 }
