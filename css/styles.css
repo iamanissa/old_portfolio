@@ -392,6 +392,12 @@ button{
   padding-top: .5px; /*to center circle window*/
 }
 
+#chat{
+  position: relative;
+  z-index: 3;
+  left: -26em;
+}
+
 #github{
   position: relative;
   z-index: 3;
