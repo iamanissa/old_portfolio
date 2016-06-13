@@ -268,6 +268,7 @@ img{
   width: 1260px;
   height: 380px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
@@ -370,6 +371,25 @@ button{
   background-color: rgb(33, 33, 32);
 }
 
+.resume{
+  height: auto;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.9em;
+  z-index: 4;
+}
+
+.resume a{
+  color: black;
+  text-decoration: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.resume a:hover{
+  color: rgb(213, 210, 210);
+  background-color: rgb(33, 33, 32);
+}
+
 
 /*=============================== CONTACT =============================*/
 
@@ -428,6 +448,6 @@ footer{
 
 /* fixes space between projects and footer sections*/
 .clearfooter {
-  height: 450px;
+  height: 510px;
   clear: both;
 }
