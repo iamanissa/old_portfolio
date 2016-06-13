@@ -1,3 +1,7 @@
+html, body {
+height: 100%;
+}
+
 body{
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -20,9 +24,9 @@ p{
 .content{
   background-image: url("../photos/chalkboard.png");
   background-repeat: no-repeat;
-  /*position: relative;
-  z-index: 2;
-  margin-bottom: 50px;*/
+  position: relative;
+  min-height: 100%;
+  margin-bottom: -600px;
 }
 .content article{
   padding: 30px 0 0;
@@ -409,21 +413,15 @@ button{
   left: 59em;
   bottom: -42em;
 }
-/*=============================== FOOTER =============================*/
 
 footer{
-  height: 650px;
+  height: 600px;
   width: 100%;
+  position: relative;
 }
 
-.copyright{
-  margin: 0 auto;
-  text-align: center;
-}
-
-.copyright p{
-  margin: 0;
-  color: black;
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 18px;
+/* fixes space between projects and footer sections*/
+.clearfooter {
+  height: 450px;
+  clear: both;
 }
