@@ -395,23 +395,23 @@ button{
 #github{
   position: relative;
   z-index: 3;
-  left: 79em;
-  bottom: -18em;
+  left: 65em;
+  bottom: -14em;
 }
 
 #linkedin{
   position: relative;
   z-index: 3;
-  left: 72em;
-  bottom: -30em;
+  left: 60em;
+  bottom: -24em;
 
 }
 
 #email{
   position: relative;
   z-index: 3;
-  left: 59em;
-  bottom: -42em;
+  left: 49em;
+  bottom: -35em;
 }
 
 footer{
