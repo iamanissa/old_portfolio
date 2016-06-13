@@ -20,9 +20,9 @@ p{
 .content{
   background-image: url("../photos/chalkboard.png");
   background-repeat: no-repeat;
-  position: relative;
+  /*position: relative;
   z-index: 2;
-  margin-bottom: 50px;
+  margin-bottom: 50px;*/
 }
 .content article{
   padding: 30px 0 0;
@@ -388,15 +388,32 @@ button{
   padding-top: .5px; /*to center circle window*/
 }
 
+#github{
+  position: relative;
+  z-index: 3;
+  left: 79em;
+  bottom: -18em;
+}
+
+#linkedin{
+  position: relative;
+  z-index: 3;
+  left: 72em;
+  bottom: -30em;
+
+}
+
+#email{
+  position: relative;
+  z-index: 3;
+  left: 59em;
+  bottom: -42em;
+}
 /*=============================== FOOTER =============================*/
 
 footer{
-  color: black;
-  position: fixed;
-  bottom: 0;
+  height: 650px;
   width: 100%;
-  padding: 15px 0;
-  z-index: -1;
 }
 
 .copyright{
