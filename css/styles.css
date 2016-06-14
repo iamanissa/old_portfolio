@@ -1,5 +1,5 @@
 html, body {
-height: 100%;
+  height: 100%;
 }
 
 body{
@@ -273,6 +273,10 @@ img{
   background: white;
 }
 
+.option2{
+  display: none;
+}
+
 .Grid-cell2{
   padding: 10px;
   width: 510px;
@@ -292,8 +296,7 @@ img{
 
 
 .gridProjects img{
-  width: 42vw;
-  height: 23vw;
+  width: 100%;
 }
 
 .gridProjects h2{
@@ -354,12 +357,12 @@ button{
   z-index: 5;
 }
 .astext {
-    background:none;
-    border:none;
-    margin: 0;
-    padding: 0 8px;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 22px;
+  background:none;
+  border:none;
+  margin: 0;
+  padding: 0 8px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 22px;
 }
 
 .astext:hover{
@@ -450,3 +453,105 @@ footer{
 }
 
 /*=============================== FOR MOBILE DEVICES =============================*/
+
+@media(max-width: 640px){
+  .content article{
+    padding: 30px 0 0;
+    max-width: 640px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .gridAbout, .gridSkills{
+    display: block;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  /*===== ABOUT ME =====*/
+
+
+  .light-bulb, .laptop{
+    display: none;
+  }
+
+  .aboutme-title{
+    width: 70%;
+    position: absolute;
+    right: 15%;
+    margin-top: -7em;
+  }
+
+  .abouttext p{
+    margin-top: 5em;
+    padding-top: 3em;
+  }
+
+  /*===== SKILLS =====*/
+
+  #chart{
+    display: none;
+  }
+
+  /*===== PROJECTS =====*/
+
+
+  .projects{
+    margin-top: 5em;
+  }
+
+  .projectstitle{
+    height: 160px;
+    width: 70%;
+    position: absolute;
+    right: 15%;
+    margin-top: -8em;
+  }
+
+  .row{
+    padding: 5px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    background: white;
+    text-align: center;
+  }
+
+  .option1, .coffeestain2, .coffeestain2{
+    display: none;
+  }
+
+  .coffeestain1{
+    height: 160px;
+    width: 80%;
+    position: absolute;
+    right: 5%;
+    margin-top: -9.5em;
+
+  }
+
+  .Grid-cell2{
+    padding: 10px;
+    width: 510px;
+    height: 600px;
+  }
+
+  .gridProjects img{
+    height: 50%;
+  }
+
+  .gridProjects h2{
+    font-size: 2em;
+    margin: 20px auto 10px;
+  }
+
+  .gridProjects p{
+    margin: 20px 25px;
+  }
+}
