@@ -92,7 +92,6 @@ img{
   height: 160px;
   width: 50%;
   background-image: url("../photos/abouttitle.png");
-  /*background-color: rgba(247, 114, 178, 0.53);*/
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -114,11 +113,9 @@ img{
   flex: 1;
   margin-left: .5em;
   margin-right: .5em;
-  /*background-color: rgba(247, 114, 178, 0.53);*/
 }
 
 .light-bulb{
-  /*margin-top: 4em;*/
   margin-left: 1.5em;
   -ms-transform: rotate(-7deg); /* IE 9 */
   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
@@ -154,7 +151,7 @@ img{
   transform: translateX(0px);
 }
 
-/*======================== SKILLS ========================*/
+/*========== Skills =============*/
 
 .gridSkills{
   font-family: 'Fredericka the Great', cursive;
@@ -405,6 +402,18 @@ button{
   border-radius: 50%;
 }
 
+footer{
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+/* fixes space between projects and footer sections*/
+.clearfooter {
+  height: 510px;
+  clear: both;
+}
+
 .chalkboard{
   height: 650px;
   background-image: url("../photos/chalkboard2.png");
@@ -440,14 +449,24 @@ button{
   bottom: -35em;
 }
 
-footer{
-  height: 600px;
-  width: 100%;
-  position: relative;
+/*=============================== FOR MOBILE DEVICES =============================*/
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  p{
+    font-family: 'Delius', cursive;
+    color: rgb(217, 210, 217);
+    font-size: 1em;
+  }
+  .light-bulb, .laptop, .gridSkills{
+    display: none;
+  }
+
 }
 
-/* fixes space between projects and footer sections*/
-.clearfooter {
-  height: 510px;
-  clear: both;
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }
 }
