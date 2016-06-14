@@ -450,23 +450,3 @@ footer{
 }
 
 /*=============================== FOR MOBILE DEVICES =============================*/
-
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  p{
-    font-family: 'Delius', cursive;
-    color: rgb(217, 210, 217);
-    font-size: 1em;
-  }
-  .light-bulb, .laptop, .gridSkills{
-    display: none;
-  }
-
-}
-
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%;
-  }
-}
