@@ -523,27 +523,47 @@ footer{
     text-align: center;
   }
 
-  .option1, .coffeestain2, .coffeestain2{
+  .option1, .coffeestain2, .coffeestain4{
     display: none;
   }
 
   .coffeestain1{
     height: 160px;
-    width: 80%;
+    width: 100%;
     position: absolute;
-    right: 5%;
+    right: -5%;
     margin-top: -9.5em;
+  }
 
+  .coffeestain3{
+    height: 300px;
+    background-image: url("../photos/coffeestain4.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 15em;
+    margin-top: -4em;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+  }
+
+  .Grid-cell2.spacing{
+    padding: 10px;
+    width: 510px;
+    height: 230px;
   }
 
   .Grid-cell2{
     padding: 10px;
     width: 510px;
-    height: 600px;
+    height: 550px;
   }
+
 
   .gridProjects img{
     height: 50%;
+    margin: 2em auto;
   }
 
   .gridProjects h2{
