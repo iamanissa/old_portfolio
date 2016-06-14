@@ -394,7 +394,7 @@ button{
 /*=============================== CONTACT =============================*/
 
 .large-window{
-  height: 600px;
+  height: 220px;
   width: 50%;
   background-image: url("../photos/giphy.gif");
   background-position: center center;
@@ -574,4 +574,62 @@ footer{
   .gridProjects p{
     margin: 20px 25px;
   }
+
+  /*===== CONTACT =====*/
+  footer{
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+
+  /* fixes space between projects and footer sections*/
+  .clearfooter {
+    height: 510px;
+    clear: both;
+  }
+
+  .large-window{
+    height: 300px;
+    width: 60%;
+    background-image: url("../photos/giphy.gif");
+    background-position: bottom center;
+    margin: 250px 1px 0 170px;
+    border-radius: 50%;
+  }
+
+  .chalkboard{
+    height: 600px;
+    background-image: url("../photos/chalkboard2.png");
+    background-size: cover;
+    padding-top: .5px; /*to center circle window*/
+  }
+
+  #chat{
+    position: relative;
+    z-index: 3;
+    left: 1em;
+  }
+
+  #github{
+    position: relative;
+    z-index: 3;
+    left: 65em;
+    bottom: -14em;
+  }
+
+  #linkedin{
+    position: relative;
+    z-index: 3;
+    left: 60em;
+    bottom: -24em;
+
+  }
+
+  #email{
+    position: relative;
+    z-index: 3;
+    left: 49em;
+    bottom: -35em;
+  }
+
 }
