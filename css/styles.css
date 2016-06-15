@@ -447,7 +447,7 @@ footer{
 
 #github{
   position: relative;
-  height: auto;
+  height: 120px;
   width: auto;
   z-index: 3;
   left: 65em;
@@ -456,6 +456,8 @@ footer{
 
 #linkedin{
   position: relative;
+  height: 128px;
+  width: auto;
   z-index: 3;
   left: 60em;
   bottom: -24em;
@@ -464,6 +466,8 @@ footer{
 
 #email{
   position: relative;
+  height: 128px;
+  width: auto;
   z-index: 3;
   left: 49em;
   bottom: -35em;
@@ -515,9 +519,9 @@ footer{
   }
 
   .aboutme-title{
-    width: 70%;
+    width: 80%;
     position: absolute;
-    right: 15%;
+    right: 10%;
     margin-top: -7em;
   }
 
@@ -695,10 +699,14 @@ footer{
     background-image: url("../photos/chatop2.png") !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
+    -webkit-background-size: 330 !important;
+    -moz-background-size: 330 !important;
+    -o-background-size: 330 !important;
+    background-size: 330 !important;
     position: relative;
     right: 90px;
     bottom: 14em;
-    width: 500px !important;
+    width: 330px !important;
     height: 250px !important;
   }
 
@@ -710,6 +718,7 @@ footer{
   #github{
     position: relative;
     z-index: 3;
+    height: 60px;
     left: 1em;
     bottom: -35em;
   }
@@ -717,6 +726,7 @@ footer{
   #linkedin{
     position: relative;
     z-index: 3;
+    height: 64px;
     left: 2.5em;
     bottom: -35em;
 
@@ -724,6 +734,7 @@ footer{
 
   #email{
     position: relative;
+    height: 64px;
     z-index: 3;
     left: 4em;
     bottom: -36em;
