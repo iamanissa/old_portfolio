@@ -600,6 +600,7 @@ footer{
     background-size: contain;
     margin: 200px 1px 0 70px;
     border-radius: 50%;
+
   }
 
   .chalkboard{
@@ -607,6 +608,23 @@ footer{
     background-image: url("../photos/chalkboard2.png");
     background-size: cover;
     padding-top: .5px; /*to center circle window*/
+  }
+
+  span[id=switcher]{
+    display: block;
+    background-image: url("../photos/chatop2.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: relative;
+    right: 100px;
+    bottom: 14em;
+    width: 500px !important;
+    height: 250px !important;
+
+  }
+
+  img[id=chat] {
+    display: none !important;
   }
 
 
