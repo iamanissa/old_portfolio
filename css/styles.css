@@ -277,6 +277,7 @@ img{
   display: none;
 }
 
+
 .Grid-cell2{
   padding: 10px;
   width: 510px;
@@ -394,7 +395,7 @@ button{
 /*=============================== CONTACT =============================*/
 
 .large-window{
-  height: 220px;
+  height: 600px;
   width: 50%;
   background-image: url("../photos/giphy.gif");
   background-position: center center;
@@ -469,6 +470,7 @@ footer{
   p{
     font-size: 1em;
   }
+
 
   /*===== ABOUT ME =====*/
 
@@ -589,11 +591,14 @@ footer{
   }
 
   .large-window{
-    height: 300px;
-    width: 60%;
+    height: 200px;
+    width: 70%;
     background-image: url("../photos/giphy.gif");
-    background-position: bottom center;
-    margin: 250px 1px 0 170px;
+    background-position: -2em 10em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 200px 1px 0 70px;
     border-radius: 50%;
   }
 
@@ -604,32 +609,27 @@ footer{
     padding-top: .5px; /*to center circle window*/
   }
 
-  #chat{
-    position: relative;
-    z-index: 3;
-    left: 1em;
-  }
 
   #github{
     position: relative;
     z-index: 3;
-    left: 65em;
-    bottom: -14em;
+    left: 1em;
+    bottom: -35em;
   }
 
   #linkedin{
     position: relative;
     z-index: 3;
-    left: 60em;
-    bottom: -24em;
+    left: 2.5em;
+    bottom: -35em;
 
   }
 
   #email{
     position: relative;
     z-index: 3;
-    left: 49em;
-    bottom: -35em;
+    left: 4em;
+    bottom: -36em;
   }
 
 }
