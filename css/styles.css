@@ -45,6 +45,9 @@ img{
   position: relative;
   height: 600px;
   background-image: url("../photos/bench-bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -407,6 +410,9 @@ button{
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   margin: 25px 100px 0 420px;
   border-radius: 50%;
@@ -427,7 +433,10 @@ footer{
 .chalkboard{
   height: 650px;
   background-image: url("../photos/chalkboard2.png");
-  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
   padding-top: .5px; /*to center circle window*/
 }
 
@@ -643,6 +652,9 @@ footer{
     background-position: -2em 10em;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
     margin: 200px 1px 0 70px;
     border-radius: 50%;
@@ -652,6 +664,9 @@ footer{
   .chalkboard{
     height: 600px;
     background-image: url("../photos/chalkboard2.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     padding-top: .5px; /*to center circle window*/
   }
