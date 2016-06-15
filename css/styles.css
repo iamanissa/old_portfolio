@@ -243,6 +243,7 @@ img{
   white-space: nowrap;
 }
 
+/*Makes the mobile version invisible*/
 .second{
   z-index: -2;
 }
@@ -510,6 +511,32 @@ footer{
 
   .first{
     display: none;
+  }
+
+  .second{
+    z-index: 4;
+  }
+
+  .Grid-cell.second{
+    height: 400px;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .float:first-child{
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .float:last-child{
+    width: 400px;
+    height: 250px;
   }
 
 
