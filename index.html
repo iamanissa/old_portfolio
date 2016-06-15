@@ -39,11 +39,20 @@
           <img src="photos/laptop.png" alt="laptop icon" class="laptop">
         </div>
       </div>
-      
+
       <!--- SKILLS --->
       <div class="gridSkills">
-        <div class="Grid-cell">
-          <img src="photos/skills-title.png" alt="Skills and arrow pointing to graph">
+        <div class="Grid-cell first">
+          <img src="photos/skills-title.png" alt="Skills text and arrow pointing to graph">
+        </div>
+        <div class="Grid-cell second">
+            <div class="float">
+              <img src="photos/skills-title.png" alt="Skills text and arrow pointing to graph">
+            </div>
+            <div class="float">
+              <img src="photos/skills.png" alt="">
+            </div>
+
         </div>
 
         <div class="Grid-cell">
@@ -78,13 +87,14 @@
           </div>
         </div>
       </div>
+
       <!--- Projects --->
       <div class="projects">
         <div class="projectstitle"></div>
         <div class="gridProjects">
 
           <div class="row">
-            <div class="Grid-cell2">
+            <div class="Grid-cell2 spacing">
               <div class="coffeestain1"></div>
               <div class="coffeestain2"></div>
               <h2>Steps Battle</h2>
@@ -99,7 +109,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row option1">
             <div class="Grid-cell2">
               <img src="photos/vivalavegan.png" alt="laptop with vegan app walk-through playing">
             </div>
@@ -114,8 +124,24 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row option2">
             <div class="Grid-cell2">
+              <div class="coffeestain3"></div>
+              <h2>Viva la Vegan</h2>
+              <p>
+                A web application for the modern vegan. This app is designed to help vegans find the vegan food options at fast food chains and restaurants. Instead of Googling "what can I eat at this restaurant?," and searching through websites and blogs for the answer, you can now easily find everything in one app. It has full CRUD functionality, built with AngularJS on top of a Ruby on Rails API.
+              </p>
+              <button id="vivaWeb" class="astext">Website</button>
+              <button id="vivaCode" class="astext">Checkout Code</button>
+            </div>
+            <div class="Grid-cell2">
+              <img src="photos/vivalavegan.png" alt="laptop with vegan app walk-through playing">
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="Grid-cell2 spacing">
               <div class="coffeestain4"></div>
               <h2>Memory</h2>
               <p>
@@ -140,22 +166,24 @@
   </section>
 
   <footer>
+      <a href="https://github.com/SuperJones" target="_blank">
+        <img src="photos/github.png" alt="Go to my github profile" id="github">
+      </a>
+      <a href="https://www.linkedin.com/in/anissadjones" target="_blank">
+        <img src="photos/linkedin.png" alt="Go to my linkedin profile" id="linkedin">
+      </a>
+      <a href="mailto:anissajones10@gmail.com" target="_blank">
+        <img src="photos/email.png" alt="send me an email" id="email">
+      </a>
 
-    <a href="https://github.com/SuperJones" target="_blank">
-    <img src="photos/github.png" alt="Go to my github profile" id="github">
-    </a>
-    <a href="https://www.linkedin.com/in/anissadjones" target="_blank">
-    <img src="photos/linkedin.png" alt="Go to my linkedin profile" id="linkedin">
-    </a>
-    <a href="mailto:anissajones10@gmail.com" target="_blank">
-    <img src="photos/email.png" alt="send me an email" id="email">
-    </a>
     <div class="chalkboard">
       <div class="large-window">
-        <img src="photos/chat.png" alt="Come chat with me." id="chat">
-      </div>
+        <span id=switcher>
+          <img src="photos/chat.png" id="chat">
+        </span>
     </div>
   </footer>
+
 
 </body>
 </html>
