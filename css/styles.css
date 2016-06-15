@@ -270,7 +270,7 @@ img{
 
 .row{
   padding: 5px;
-  width: 1260px;
+  width: auto;
   height: 380px;
   display: flex;
   flex-direction: row;
@@ -289,7 +289,7 @@ img{
 .Grid-cell2{
   padding: 10px;
   width: 510px;
-  height: 350px;
+  height: auto;
 }
 
 .projectstitle{
@@ -508,7 +508,7 @@ footer{
   .leaves{
     position: absolute;
     left: 35%;
-    margin-left: -530px;
+    margin-left: -10px;
   }
 
   /*===== ABOUT ME =====*/
@@ -592,7 +592,7 @@ footer{
   .row{
     padding: 5px;
     margin: 0 auto;
-    height: 600px;
+    height: 140px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -629,14 +629,13 @@ footer{
 
   .Grid-cell2.spacing{
     padding: 10px;
-    width: 510px;
-    height: 230px;
+    width: 400px;
+    height: auto;
   }
 
   .Grid-cell2{
     padding: 10px;
-    width: 510px;
-    height: 550px;
+    width: 400px;
   }
 
 
