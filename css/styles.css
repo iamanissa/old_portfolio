@@ -243,6 +243,11 @@ img{
   white-space: nowrap;
 }
 
+.second{
+  z-index: -2;
+}
+
+
 /*=============================== PROJECTS =================================*/
 .projects{
   margin-top: 2em;
@@ -497,6 +502,17 @@ footer{
     display: none;
   }
 
+  .skills-title{
+    max-width: 100%;
+    position: relative;
+    left: -8em;
+  }
+
+  .first{
+    display: none;
+  }
+
+
   /*===== PROJECTS =====*/
 
 
@@ -610,6 +626,7 @@ footer{
     padding-top: .5px; /*to center circle window*/
   }
 
+  /*switches between full screen chat pic and mobile image.*/
   span[id=switcher]{
     display: block;
     background-image: url("../photos/chatop2.png") !important;
@@ -620,13 +637,12 @@ footer{
     bottom: 14em;
     width: 500px !important;
     height: 250px !important;
-
   }
 
+  /*Stop displaying desktop photo*/
   img[id=chat] {
     display: none !important;
   }
-
 
   #github{
     position: relative;
