@@ -439,6 +439,8 @@ footer{
 
 #github{
   position: relative;
+  height: auto;
+  width: auto;
   z-index: 3;
   left: 65em;
   bottom: -14em;
@@ -528,6 +530,7 @@ footer{
     align-items: flex-start;
   }
 
+  /* Uses flexbox (instead of float) to align title and icons*/
   .float:first-child{
     width: 200px;
     height: 300px;
@@ -660,7 +663,7 @@ footer{
     background-repeat: no-repeat !important;
     background-position: center !important;
     position: relative;
-    right: 100px;
+    right: 90px;
     bottom: 14em;
     width: 500px !important;
     height: 250px !important;
