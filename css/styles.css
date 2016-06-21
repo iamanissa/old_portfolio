@@ -632,7 +632,7 @@ footer{
   }
 
   .resume{
-
+    margin: auto;
   }
 
   /*===== CONTACT =====*/
@@ -685,7 +685,6 @@ footer{
     -o-background-size: 330 !important;
     background-size: 330 !important;
     position: relative;
-    right: 90px;
     bottom: 14em;
     width: 330px !important;
     height: 250px !important;
@@ -700,7 +699,7 @@ footer{
     position: relative;
     z-index: 3;
     height: 60px;
-    left: 1em;
+    left: 5em;
     bottom: -35em;
   }
 
@@ -708,7 +707,7 @@ footer{
     position: relative;
     z-index: 3;
     height: 64px;
-    left: 2.5em;
+    left: 8em;
     bottom: -35em;
 
   }
@@ -717,7 +716,7 @@ footer{
     position: relative;
     height: 64px;
     z-index: 3;
-    left: 4em;
+    left: 11em;
     bottom: -36em;
   }
 
