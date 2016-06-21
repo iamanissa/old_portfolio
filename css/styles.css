@@ -503,24 +503,9 @@ footer{
   }
   /*===== HEADER =====*/
   .yellow-flower, .leaves{
-    -webkit-background-size: 330px;
-    -moz-background-size: 330px;
-    -o-background-size: 330px;
-    background-size: 330px;
+    display: none;
   }
 
-  .yellow-flower{
-    position: absolute;
-    left: 65%;
-    margin-left: -100px;
-    top: 130px;
-  }
-
-  .leaves{
-    position: absolute;
-    left: 35%;
-    margin-left: -10px;
-  }
 
   /*===== ABOUT ME =====*/
 
@@ -613,30 +598,10 @@ footer{
     text-align: center;
   }
 
-  .option1, .coffeestain2, .coffeestain4{
+  .option1, .coffeestain1, .coffeestain2, .coffeestain3, .coffeestain4{
     display: none;
   }
 
-  .coffeestain1{
-    height: 160px;
-    width: 100%;
-    position: absolute;
-    right: -5%;
-    margin-top: -9.5em;
-  }
-
-  .coffeestain3{
-    height: 300px;
-    background-image: url("../photos/coffeestain4.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    margin-left: 15em;
-    margin-top: -4em;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-  }
 
   .Grid-cell2.spacing{
     padding: 10px;
