@@ -585,7 +585,7 @@ footer{
     height: 160px;
     width: 80%;
     position: absolute;
-    right: 10%;
+    right: auto;
     margin-top: -8em;
   }
 
