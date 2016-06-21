@@ -264,8 +264,12 @@ img{
   margin-top: 10em;
 }
 
-.row:first-child {
-  margin-top: 40px;
+.row:first-child{
+  height: 1px;
+}
+
+.row:nth-child(2) {
+  margin-top: 70px;
   padding-bottom: 50px;
   height: 410px;
 }
@@ -307,7 +311,7 @@ img{
   background-repeat: no-repeat;
   position: absolute;
   right: 25%;
-  margin-top: -9.8em;
+  margin-top: -8.7em;
 }
 
 
@@ -339,7 +343,7 @@ img{
   background-repeat: no-repeat;
   position: absolute;
   right: 25%;
-  margin-top: -12em;
+  margin-top: -6.5em;
 }
 
 .coffeestain2{
@@ -585,7 +589,7 @@ footer{
     margin-top: -8em;
   }
 
-  .row:first-child{
+  .row:nth-child(2){
     height: auto;
   }
 
