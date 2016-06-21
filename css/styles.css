@@ -579,7 +579,7 @@ footer{
 
   .projectstitle{
     height: 160px;
-    width: 70%;
+    width: 100%;
     position: absolute;
     right: 15%;
     margin-top: -8em;
@@ -588,7 +588,11 @@ footer{
   .row:first-child{
     height: auto;
   }
-  
+
+  .row:last-child {
+    width: 50%;
+  }
+
   .row{
     padding: 5px;
     margin: 0 auto;
@@ -607,17 +611,15 @@ footer{
   }
 
 
-  .Grid-cell2.spacing{
-    padding: 10px;
-    width: 400px;
-    height: auto;
-  }
 
   .Grid-cell2{
     padding: 10px;
-    width: 400px;
+    width: 300px;
   }
 
+  .Grid-cell2.spacing{
+    height: auto;
+  }
 
   .gridProjects img{
     height: 50%;
