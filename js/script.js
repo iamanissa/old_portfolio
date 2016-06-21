@@ -51,22 +51,29 @@ $(window).scroll(function(){
 //================ PROJECTS =====================
 
 
-  $('#vivaWeb').click(function() {
-    window.open("https://vivalavegan.herokuapp.com/", '_blank');
-  });
-  $('#vivaCode').click(function() {
-   window.open( "https://github.com/SuperJones/vivalavegan", '_blank');
-  });
+// $('#oryxWeb').click(function() {
+//   window.open("", '_blank');
+// });
+$('#oryxCode').click(function() {
+ window.open( "https://github.com/rubyforgood/scimitar_oryx", '_blank');
+});
 
-  $('#memoryWeb').click(function() {
-   window.open("http://superjones.github.io/project1/", '_black');
-  });
-  $('#memoryCode').click(function() {
-   window.open("https://github.com/SuperJones/project1", '_black');
-  });
-  $('#stepsWeb').click(function() {
-   window.open("https://steps-battle.herokuapp.com/", '_black');
-  });
-  $('#stepsCode').click(function() {
-   window.open("https://github.com/SuperJones/project2", '_black');
-  });
+$('#vivaWeb').click(function() {
+  window.open("https://vivalavegan.herokuapp.com/", '_blank');
+});
+$('#vivaCode').click(function() {
+ window.open( "https://github.com/SuperJones/vivalavegan", '_blank');
+});
+
+$('#memoryWeb').click(function() {
+ window.open("http://superjones.github.io/project1/", '_black');
+});
+$('#memoryCode').click(function() {
+ window.open("https://github.com/SuperJones/project1", '_black');
+});
+$('#stepsWeb').click(function() {
+ window.open("https://steps-battle.herokuapp.com/", '_black');
+});
+$('#stepsCode').click(function() {
+ window.open("https://github.com/SuperJones/project2", '_black');
+});
