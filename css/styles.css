@@ -589,10 +589,6 @@ footer{
     height: auto;
   }
 
-  .row:last-child {
-    width: 50%;
-  }
-
   .row{
     padding: 5px;
     margin: 0 auto;
@@ -633,6 +629,10 @@ footer{
 
   .gridProjects p{
     margin: 20px 25px;
+  }
+
+  .resume{
+
   }
 
   /*===== CONTACT =====*/
