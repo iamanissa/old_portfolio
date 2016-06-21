@@ -1,18 +1,24 @@
+var topContainerHeight = $('.jumbo-blur').height();
+
 $(window).scroll(function(){
   // when the window scrolls, tell me where zero is in relation to the top
   var wScroll = $(this).scrollTop();
 
-  $(".anissalogo").css({
-    'transform' : 'translate(0px, '+ wScroll /8 +'%)'
-  });
+  //if the height of the top div goes beyond view, stop parallax.
+  if(wScroll <= topContainerHeight){
+    $(".anissalogo").css({
+      'transform' : 'translate(0px, '+ wScroll /8 +'%)'
+    });
 
-  $(".leaves").css({
-    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
-  });
+    $(".leaves").css({
+      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+    });
 
-  $(".yellow-flower").css({
-    'transform' : 'translate('+ wScroll /80 +'%, '+ wScroll /2 +'%)'
-  });
+    $(".yellow-flower").css({
+      'transform' : 'translate('+ wScroll /80 +'%, '+ wScroll /2 +'%)'
+    });
+  }
+
 
   // =============== ABOUT ME MOVING PICS =============
 
