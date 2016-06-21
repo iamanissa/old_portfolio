@@ -376,7 +376,7 @@ img{
 button{
   z-index: 5;
 }
-.astext {
+.projectlink {
   background:none;
   border:none;
   margin: 0;
@@ -385,7 +385,7 @@ button{
   font-size: 22px;
 }
 
-.astext:hover{
+.projectlink:hover{
   font-size: 28px;
   color: rgb(213, 210, 210);
   background-color: rgb(33, 33, 32);
@@ -622,7 +622,7 @@ footer{
   }
 
   .gridProjects img{
-    height: 50%;
+    width: auto;
     margin: 2em auto;
   }
 
