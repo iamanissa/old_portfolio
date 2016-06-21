@@ -585,10 +585,14 @@ footer{
     margin-top: -8em;
   }
 
+  .row:first-child{
+    height: auto;
+  }
+  
   .row{
     padding: 5px;
     margin: 0 auto;
-    height: 140px;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
