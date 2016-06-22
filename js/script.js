@@ -5,7 +5,7 @@ $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
 
   //if the height of the top div goes beyond view, stop parallax.
-  if(wScroll <= topContainerHeight){
+  if(wScroll <= topContainerHeight - 300){
     $(".anissalogo").css({
       'transform' : 'translate(0px, '+ wScroll /8 +'%)'
     });
