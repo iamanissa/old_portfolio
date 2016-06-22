@@ -656,14 +656,14 @@ footer{
     height: 200px;
     width: 70%;
     background-image: url("../photos/giphy.gif");
-    background-position: -2em 10em;
+    background-position: scroll;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    margin: 200px 1px 0 70px;
+    margin: 150px 1px 0 90px;
     border-radius: 50%;
 
   }
@@ -690,7 +690,8 @@ footer{
     -o-background-size: 330 !important;
     background-size: 330 !important;
     position: relative;
-    bottom: 14em;
+    bottom: 12em;
+    left: -5em;
     width: 330px !important;
     height: 250px !important;
   }
@@ -704,7 +705,7 @@ footer{
     position: relative;
     z-index: 3;
     height: 60px;
-    left: 10vw;
+    left: 5em;
     bottom: -35em;
   }
 
@@ -712,7 +713,7 @@ footer{
     position: relative;
     z-index: 3;
     height: 64px;
-    left: 25vw;
+    left: 8em;
     bottom: -35em;
 
   }
@@ -721,7 +722,7 @@ footer{
     position: relative;
     height: 64px;
     z-index: 3;
-    left: 38vw;
+    left: 11em;
     bottom: -36em;
   }
 
