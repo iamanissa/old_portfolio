@@ -52,7 +52,7 @@ img{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+
 }
 
 .anissalogo{
@@ -496,7 +496,7 @@ footer{
   {
     overflow-x: hidden;
   }
-  
+
   .content article{
     padding: 30px 0 0;
     max-width: 640px;
@@ -512,6 +512,32 @@ footer{
     font-size: 1em;
   }
   /*===== HEADER =====*/
+
+  .jumbo-blur{
+    position: relative;
+    height: 600px;
+    background-image: url("../photos/bench-bg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: scroll;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+
+  }
+
+  /*.anissalogo{
+    height: 380px;
+    width: 100%;
+    background-image: url("../photos/anissalogo-wht.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    margin-top: -50px;
+  }*/
+
   .yellow-flower, .leaves{
     display: none;
   }
