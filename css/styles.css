@@ -521,9 +521,9 @@ footer{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: scroll;
+    /*background-position: scroll;*/
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: scroll;
 
   }
 
