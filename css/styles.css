@@ -683,7 +683,7 @@ footer{
 
   /* fixes space between projects and footer sections*/
   .clearfooter {
-    height: 510px;
+    height: 530px;
     clear: both;
   }
 
