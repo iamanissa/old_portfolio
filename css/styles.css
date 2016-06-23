@@ -433,10 +433,15 @@ button{
   border-radius: 50%;
 }
 
-footer{
+
+#fullscreen{
   height: 600px;
   width: 100%;
   position: relative;
+}
+
+.mobile{
+  display: none;
 }
 
 /* fixes space between projects and footer sections*/
@@ -461,14 +466,15 @@ footer{
   left: -26em;
 }
 
-#github{
+
+/*#github{
   position: relative;
   height: 120px;
   width: auto;
   z-index: 3;
   left: 65em;
   bottom: -14em;
-}
+}*/
 
 #linkedin{
   position: relative;
@@ -676,10 +682,16 @@ footer{
   }
 
   /*===== CONTACT =====*/
-  footer{
-    height: 300px;
-    width: 100%;
-    position: relative;
+
+  #fullscreen{
+    display: none;
+  }
+
+  #mobile{
+    display: block;
+    height: 300px !important;
+    width: 100% !important;
+    position: relative !important;
   }
 
   /* fixes space between projects and footer sections*/
