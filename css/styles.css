@@ -227,12 +227,13 @@ img{
   bottom: 0;
 }
 
-#bars li .bar:before{
+/*#bars li .bar:before{
   color: white;
   content: attr(data-percentage)'%';
   position: relative;
   bottom: 20px;
-}
+}*/
+
 #bars li span {
   color: #eee;
   width: 100%;
