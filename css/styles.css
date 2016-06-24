@@ -757,32 +757,33 @@ button{
 
   img[id=chatmobile]{
     display: block;
-    margin: 0 35% 0 15%;
+    margin: 0 0 0 18%;
   }
 
   #github, #linkedin, #email{
-    margin: -50px 0 0 -50px;
     left: 50%;
   }
 
   #github{
     position: relative;
     z-index: 3;
-    height: 60px;
-    bottom: -15em;
+    height: 80px;
+    margin: -50px 0 0 -10%;
+    bottom: -5em;
   }
 
   #linkedin{
     position: relative;
     z-index: 3;
-    height: 64px;
-    bottom: -15em;
-
+    height: 84px;
+    margin: -50px 0 -10px -21%;
+    bottom: -10em;
   }
 
   #email{
     position: relative;
-    height: 64px;
+    height: 84px;
+    margin: -50px 0 -10px -21%;
     z-index: 3;
     bottom: -16em;
   }
