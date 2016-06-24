@@ -707,6 +707,8 @@ button{
   }
 
   .chalkboard{
+    position: relative;
+    z-index: -10;
     width: auto;
     height: 500px;
     background-image: url("../photos/chalkboard2.png");
@@ -728,39 +730,54 @@ button{
     margin: 10px 0 0 20%;
   }
 
-  .image_block{
+  /*.image_block{
     width: 100%;
     height: auto;
     position: relative;
-  }
+  }*/
 
-  .image_block a  {
-    width: 50%;
+  /*.image_block a  {
     text-align: center;
     position: absolute;
     bottom: 0px;
     margin-bottom: -20px;
-  }
+  }*/
 
   #github, #linkedin, #email{
-    left: 50%;
+    left: 0;
   }
 
-  #github{
+  .sociallinks{
+    width: 100%;
+    z-index: 100;
+  }
+
+  .sociallinks ul {
+    width: 100%;
+  }
+
+  .sociallinks li {
+    float: left;
+    display: inline;
+    width: 30%;
+    /*height: 90px;*/
+  }
+
+  #github2{
     z-index: 3;
     height: 80px;
     margin: 0 0 0 -10%;
     bottom: -5em;
   }
 
-  #linkedin{
+  #linkedin2{
     z-index: 3;
     height: 84px;
     margin: 0 0 -10px 0;
     bottom: -10em;
   }
 
-  #email{
+  #email2{
     height: 84px;
     margin: 0 0 -10px 0;
     z-index: 3;
