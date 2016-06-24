@@ -227,13 +227,6 @@ img{
   bottom: 0;
 }
 
-/*#bars li .bar:before{
-  color: white;
-  content: attr(data-percentage)'%';
-  position: relative;
-  bottom: 20px;
-}*/
-
 #bars li span {
   color: #eee;
   width: 100%;
@@ -528,22 +521,10 @@ button{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-position: scroll;*/
     background-repeat: no-repeat;
     background-attachment: scroll;
 
   }
-
-  /*.anissalogo{
-    height: 380px;
-    width: 100%;
-    background-image: url("../photos/anissalogo-wht.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 25%;
-    margin-top: -50px;
-  }*/
 
   .yellow-flower, .leaves{
     display: none;
@@ -636,7 +617,7 @@ button{
   }
 
   .row:last-child{
-    margin-bottom: 200px;
+    margin-bottom: 250px;
   }
 
   .row{
