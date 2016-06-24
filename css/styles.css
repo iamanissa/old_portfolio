@@ -636,7 +636,7 @@ button{
   }
 
   .row:last-child{
-    margin-bottom: 400px;
+    margin-bottom: 200px;
   }
 
   .row{
@@ -696,13 +696,13 @@ button{
     height: 200px !important;
     width: 100% !important;
     position: relative !important;
-    margin-top: 150px;
+    margin-top: 350px;
 
   }
 
   /* fixes space between projects and footer sections*/
   .clearfooter {
-    height: 100px;
+    height: 50px;
     clear: both;
   }
 
@@ -710,7 +710,7 @@ button{
     position: relative;
     z-index: -10;
     width: auto;
-    height: 500px;
+    height: 300px;
     background-image: url("../photos/chalkboard2.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -730,19 +730,6 @@ button{
     margin: 10px 0 0 20%;
   }
 
-  /*.image_block{
-    width: 100%;
-    height: auto;
-    position: relative;
-  }*/
-
-  /*.image_block a  {
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    margin-bottom: -20px;
-  }*/
-
   #github, #linkedin, #email{
     left: 0;
   }
@@ -760,28 +747,21 @@ button{
     float: left;
     display: inline;
     width: 30%;
-    /*height: 90px;*/
   }
 
   #github2{
-    z-index: 3;
     height: 80px;
-    margin: 0 0 0 -10%;
-    bottom: -5em;
+    padding: 10px;
   }
 
   #linkedin2{
-    z-index: 3;
     height: 84px;
-    margin: 0 0 -10px 0;
-    bottom: -10em;
+    margin-left: 10px;
   }
 
   #email2{
     height: 84px;
-    margin: 0 0 -10px 0;
-    z-index: 3;
-    bottom: -16em;
+    padding: 10px;
   }
 
 }
