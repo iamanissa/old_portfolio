@@ -467,14 +467,14 @@ button{
 }
 
 
-/*#github{
+#github{
   position: relative;
   height: 120px;
   width: auto;
   z-index: 3;
   left: 65em;
   bottom: -14em;
-}*/
+}
 
 #linkedin{
   position: relative;
@@ -635,6 +635,10 @@ button{
     height: auto;
   }
 
+  .row:last-child{
+    margin-bottom: 400px;
+  }
+
   .row{
     padding: 5px;
     margin: 0 auto;
@@ -689,36 +693,38 @@ button{
 
   #mobile{
     display: block;
-    height: 300px !important;
+    height: 200px !important;
     width: 100% !important;
     position: relative !important;
+    margin-top: 150px;
+
   }
 
   /* fixes space between projects and footer sections*/
   .clearfooter {
-    height: 530px;
+    height: 100px;
     clear: both;
   }
 
-  .large-window{
+  /*.large-window{
     height: 200px;
     width: 70%;
     background-image: url("../photos/giphy.gif");
     background-position: scroll;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
-    -webkit-background-size: contain;
+    /*-webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
     margin: 150px 1px 0 90px;
-    border-radius: 50%;
+    border-radius: 50%;*/
 
-  }
+  /*}*/
 
   .chalkboard{
     width: auto;
-    height: 600px;
+    height: 500px;
     background-image: url("../photos/chalkboard2.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -728,7 +734,7 @@ button{
   }
 
   /*switches between full screen chat pic and mobile image.*/
-  span[id=switcher]{
+  /*span[id=switcher]{
     display: block;
     background-image: url("../photos/chatop2.png") !important;
     background-repeat: no-repeat !important;
@@ -742,27 +748,35 @@ button{
     left: -5em;
     width: 330px !important;
     height: 250px !important;
-  }
+  }*/
 
   /*Stop displaying desktop photo*/
   img[id=chat] {
     display: none !important;
   }
 
+  img[id=chatmobile]{
+    display: block;
+    margin: 0 35% 0 15%;
+  }
+
+  #github, #linkedin, #email{
+    margin: -50px 0 0 -50px;
+    left: 50%;
+  }
+
   #github{
     position: relative;
     z-index: 3;
     height: 60px;
-    left: 5em;
-    bottom: -35em;
+    bottom: -15em;
   }
 
   #linkedin{
     position: relative;
     z-index: 3;
     height: 64px;
-    left: 8em;
-    bottom: -35em;
+    bottom: -15em;
 
   }
 
@@ -770,8 +784,7 @@ button{
     position: relative;
     height: 64px;
     z-index: 3;
-    left: 11em;
-    bottom: -36em;
+    bottom: -16em;
   }
 
 }
